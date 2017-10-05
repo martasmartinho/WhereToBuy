@@ -1,0 +1,20 @@
+﻿** Warnings
+     Function: [dbo].[GetCodigoExternoNormalizadoFunction] has an unresolved reference to object
+       [dbo].[GetTextoLimpoFunction].
+     Function: [dbo].[GetCotacaoPartnumberFunction] has an unresolved reference to object [dbo].[GetTextoLimpoFunction].
+
+** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[GetTextoLimpo1Function] (Function)
+
+** Supporting actions

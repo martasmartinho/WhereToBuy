@@ -1,0 +1,70 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[AvisosTipo] (Table)
+       [dbo].[Categorias] (Table)
+       [dbo].[CategoriasMatching] (Table)
+       [dbo].[Complementos] (Table)
+       [dbo].[ComplementosMatching] (Table)
+       [dbo].[Cotacoes] (Table)
+       [dbo].[CotacoesAvisos] (Table)
+       [dbo].[CotacoesRegras] (Table)
+       [dbo].[Fornecedores] (Table)
+       [dbo].[Impostos] (Table)
+       [dbo].[ImpostosMatching] (Table)
+       [dbo].[Marcas] (Table)
+       [dbo].[MarcasMatching] (Table)
+       [dbo].[Produtos] (Table)
+       [dbo].[ProdutosDetalhe] (Table)
+       [dbo].[ProdutosMatching] (Table)
+       [dbo].[Stocks] (Table)
+       [dbo].[StocksMatching] (Table)
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_AvisoTipo] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Marca] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Stock] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_StockSubstituto] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Produtos_Categoria] (Foreign Key)
+       [dbo].[FK_Produtos_Marca] (Foreign Key)
+       [dbo].[FK_Produtos_Imposto] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Stock] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U1] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U2] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U3] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Produto] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_StocksMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_StocksMatching_MapTo] (Foreign Key)
+
+** Supporting actions

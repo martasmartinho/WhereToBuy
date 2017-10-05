@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13293538-38D1-402C-88E9-F28832FCD235}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WhereToBuy.entities.specs</RootNamespace>
+    <AssemblyName>WhereToBuy.entities.specs</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Catalogs\CatalogSpecs.cs" />
+    <Compile Include="Catalogs\ClasseSpecs.cs" />
+    <Compile Include="Catalogs\GroupSpecs.cs" />
+    <Compile Include="Enumerable.cs" />
+    <Compile Include="Quotations\BrandMatchingSpecs.cs" />
+    <Compile Include="Quotations\CategoryMatchingSpecs.cs" />
+    <Compile Include="Quotations\CategorySpecs.cs" />
+    <Compile Include="Catalogs\ClassCategorySpecs.cs" />
+    <Compile Include="Quotations\LanguageSpecs.cs" />
+    <Compile Include="Quotations\ProductSpecs.cs" />
+    <Compile Include="Quotations\ProductDetailSpecs.cs" />
+    <Compile Include="Quotations\ProdutMatchingSpecs.cs" />
+    <Compile Include="Quotations\QuotationSpecs.cs" />
+    <Compile Include="Quotations\QuotationRuleSpecs.cs" />
+    <Compile Include="Quotations\StateMatchingSpecs.cs" />
+    <Compile Include="Quotations\StateSpecs.cs" />
+    <Compile Include="Quotations\StockSpecs.cs" />
+    <Compile Include="Quotations\StockMatchingSpecs.cs" />
+    <Compile Include="Catalogs\SubgroupSpecs.cs" />
+    <Compile Include="Catalogs\SubgroupClassSpecs.cs" />
+    <Compile Include="Quotations\SupplementMatchingSpecs.cs" />
+    <Compile Include="Quotations\SupplementSpecs.cs" />
+    <Compile Include="Quotations\SupplierBrandSpecs.cs" />
+    <Compile Include="Quotations\SupplierSpecs.cs" />
+    <Compile Include="Quotations\TaxMatchingSpecs.cs" />
+    <Compile Include="Quotations\TaxSpecs.cs" />
+    <Compile Include="Quotations\UserSpecs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quotations\BrandSpecs.cs" />
+    <Compile Include="Quotations\QuotationWarningSpecs.cs" />
+    <Compile Include="Quotations\WarningTypeSpecs.cs" />
+    <Compile Include="Quotations\WorryingTermSpecs.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\WhereToBuy.entities\WhereToBuy.entities.csproj">
+      <Project>{32183189-2385-46a8-b77c-5fff8d2460d1}</Project>
+      <Name>WhereToBuy.entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhereToBuy.utils\WhereToBuy.utils.csproj">
+      <Project>{2bacc67f-d9e3-4f6c-a516-33bb50fd888f}</Project>
+      <Name>WhereToBuy.utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Step2b1a_Mappings_Categories_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Categories_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Categories_Notifications] (Procedure)
+     Create
+       [dbo].[Step2b1a_Mappings_Addons_FeedNewRules] (Procedure)
+
+** Supporting actions

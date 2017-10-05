@@ -1,0 +1,280 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI.WebControls;
+using WhereToBuy.core;
+using WhereToBuy.entities;
+using WhereToBuy.entities.specs;
+
+namespace WhereToBuy.web.UserControls.Taxes.TaxesMatching
+{
+    public partial class TaxesMatchingUC
+    {
+        CoreEngine engine;
+
+        public void UpdateData(string supplierCode, string code, DataState dataState)
+        {
+
+            if (ViewState["TaxMatchingOrderBy"] == null)
+            {
+                SetFormEnvironment();
+            }
+
+            txtExternalCode.Text = code.TrimEnd();
+
+
+
+            btnActive.Checked = false;
+            btnInactive.Checked = false;
+            btnAll.Checked = false;
+            btnMatching.Checked = false;
+
+            // Select correct radiobutton
+            switch (dataState)
+            {
+                case DataState.Active:
+                    btnActive.Checked = true;
+                    break;
+                case DataState.Inactive:
+                    btnInactive.Checked = true;
+                    break;
+                case DataState.All:
+                    btnAll.Checked = true;
+                    break;
+                default:
+                    btnMatching.Checked = true;
+                    break;
+            }
+
+            SuppliersSelBox.UpdateData(supplierCode, true);
+
+            RefreshGridView();
+
+            UpdatePanel1.Update();
+        }
+
+
+        void SetFormEnvironment()
+        {
+            ViewState.Add("TaxMatchingOrderBy", "[Codigo]");
+            ViewState.Add("TaxMatchingOrderByType", "ASC");
+
+
+            txtExternalCode.MaxLength = TaxMatchingSpecs.Code_MaxSize;
+
+            // Prepare GRIDVIEW
+            SetGridViewEnvironment();
+
+
+            //// if exist object in session
+            //if (Session["SelectedTaxMatching"] != null)
+            //{
+            //    SetSelectedMatching((TaxMatchingUC)Session["SelectedTaxMatching"]);
+            //}
+
+
+        }
+
+
+        void SetGridViewEnvironment()
+        {
+            gvTaxesMatching.AutoGenerateColumns = false;
+            gvTaxesMatching.ShowHeader = true;
+            gvTaxesMatching.ShowFooter = true;
+            gvTaxesMatching.AllowSorting = true;
+            gvTaxesMatching.AllowPaging = true;
+            gvTaxesMatching.PageSize = 10;
+            gvTaxesMatching.Height = 360;
+            gvTaxesMatching.DataKeyNames = new string[] { "Code", "Supplier" };
+            gvTaxesMatching.SelectedIndex = -1;
+            gvTaxesMatching.AllowPaging = true;
+            gvTaxesMatching.PageIndex = 0;
+            gvTaxesMatching.Columns[0].Visible = false;
+
+        }
+
+
+        void RefreshGridView()
+        {
+            Supplier supplier = null;
+            string code;
+            DataState dataState;
+            string orderBy;
+
+            List<WhereToBuy.entities.TaxMatching> taxesMatching;
+
+
+            // Filter data
+            code = txtExternalCode.Text.TrimStart().TrimEnd();
+
+
+            if (btnActive.Checked == true)
+            {
+                dataState = DataState.Active;
+            }
+            else if (btnInactive.Checked == true)
+            {
+                dataState = DataState.Inactive;
+            }
+            else if (btnMatching.Checked == true)
+            {
+                dataState = DataState.None;
+            }
+            else
+            {
+                dataState = DataState.All;
+            }
+
+            if (SelectedSupplierExist)
+            {
+                supplier = GetSelectedSupplier();
+            }
+
+            // Orderby instruction
+            orderBy = ViewState["TaxMatchingOrderBy"].ToString().TrimEnd();
+            orderBy += " ";
+            orderBy += ViewState["TaxMatchingOrderByType"].ToString().TrimEnd();
+
+            try
+            {
+                // load data
+                engine = new CoreEngine(Application["ConnectionString"].ToString().TrimEnd(), (User)Session["ActualUser"]);
+                taxesMatching = engine.TaxesMatching.Get(supplier, code, dataState, orderBy, 1);
+                engine = null;
+
+
+                // Select selected object
+                if (ViewState["SelectedTaxMatching"] != null)
+                {
+                    SetSelectedIndex(ref taxesMatching);
+                }
+
+
+                // show data
+                gvTaxesMatching.DataSource = taxesMatching;
+                gvTaxesMatching.DataBind();
+
+                // update pager
+                if (taxesMatching.Count > 0)
+                {
+                    GridViewRow PagerRow = gvTaxesMatching.BottomPagerRow;
+                    Label label = (Label)PagerRow.FindControl("lblActualPage");
+                    label.Text = string.Format(" {0} ... {1} ", gvTaxesMatching.PageIndex + 1, gvTaxesMatching.PageCount);
+                }
+
+
+
+            }
+            catch (MyException ex)
+            {
+
+                this.MessageUC.ShowError("Erro", ex.Message);
+                return;
+            }
+            catch (Exception ex)
+            {
+                this.MessageUC.ShowError("Erro", ex.Message);
+                return;
+            }
+        }
+
+
+        void SetSelectedIndex(ref List<WhereToBuy.entities.TaxMatching> brandsMatching)
+        {
+            WhereToBuy.entities.TaxMatching taxMatching = (WhereToBuy.entities.TaxMatching)Session["SelectedTaxMatching"];
+
+            /*
+                EXPLICAÇÃO:
+                Este metodo calcula o indice real do primeiro e ultimo registo mostrado na pagina atual.
+                Se o indice do objeto selecionado estiver dentro desse intervalo então seleciona a linha 
+                correspondente ao objeto. Caso contrário não seleciona linha nenhuma.
+             */
+
+            int firstPageItemIndex = gvTaxesMatching.PageIndex * gvTaxesMatching.PageSize;
+            int lastPageItemIndex;
+            int objectIndex;
+
+            if (gvTaxesMatching.PageIndex != (gvTaxesMatching.PageCount - 1))
+            {
+                lastPageItemIndex = (firstPageItemIndex + gvTaxesMatching.PageSize) - 1;
+            }
+            else
+            {
+                lastPageItemIndex = brandsMatching.Count - 1;
+            }
+
+            objectIndex = brandsMatching.IndexOf(taxMatching);
+
+            if (firstPageItemIndex <= objectIndex && objectIndex <= lastPageItemIndex)
+            {
+                gvTaxesMatching.SelectedIndex = objectIndex - firstPageItemIndex;
+            }
+            else
+            {
+                gvTaxesMatching.SelectedIndex = -1;
+            }
+        }
+
+
+        void LoadTaxMatching(Supplier supplier, string codigo)
+        {
+
+
+            try
+            {
+                engine = new CoreEngine(Application["ConnectionString"].ToString().TrimEnd(), (User)Session["ActualUser"]);
+                this.selectedMatching = engine.TaxesMatching.Get(supplier, codigo, 1);
+                SetSelectedMatching(selectedMatching);
+                engine = null;
+            }
+            catch (MyException ex)
+            {
+                this.MessageUC.ShowError("Erro", ex.Message);
+                return;
+            }
+            catch (Exception ex)
+            {
+                this.MessageUC.ShowError("Erro", ex.Message);
+                return;
+            }
+        }
+
+
+
+
+        void ClearFilter()
+        {
+
+            btnActive.Checked = false;
+            btnInactive.Checked = false;
+            btnAll.Checked = false;
+            btnMatching.Checked = true;
+            txtExternalCode.Text = "";
+            gvTaxesMatching.PageIndex = 0;
+            SuppliersSelBox.UpdateData("", true);
+            SetSelectedSupplier(null);
+            RefreshGridView();
+            UpdatePanel1.Update();
+
+
+
+        }
+
+
+        public int GetTotalPageCount()
+        {
+            int count = 0;
+            WhereToBuy.entities.TaxMatching rv = new WhereToBuy.entities.TaxMatching();
+            count = GetTotalRecords();
+            count = count / 10;
+            return count;
+        }
+
+
+        int GetTotalRecords()
+        {
+            return ((gvTaxesMatching.DataSource) as List<WhereToBuy.entities.TaxMatching>).Count();
+        }
+    }
+}

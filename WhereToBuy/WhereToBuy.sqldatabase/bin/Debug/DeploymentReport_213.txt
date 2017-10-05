@@ -1,0 +1,52 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CleanBadCharsFunction] (Function)
+       [dbo].[GetCotacaoDescricaoFunction] (Function)
+       [dbo].[GetTextoOnlyAllowedCharsFunction] (Function)
+       [dbo].[RemoveAccentuationFunction] (Function)
+       [dbo].[GetCodigoExternoNormalizadoFunction] (Function)
+       [dbo].[GetCotacaoPartnumberFunction] (Function)
+       [dbo].[GetCotacaoPartnumberSimplificadoFunction] (Function)
+       [dbo].[GetProdutoCodigoFunction] (Function)
+       [dbo].[CotacaoInsertSP] (Procedure)
+       [dbo].[DeleteIncompleteExistingQuotations] (Procedure)
+       [dbo].[Step2a1_CleanAllExistingWarnings] (Procedure)
+       [dbo].[Step2a2_DeleteExpiredQuotations] (Procedure)
+       [dbo].[Step2a3_SetInactiveExpiredQuotations] (Procedure)
+       [dbo].[Step2b1a_Mappings_Addons_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Brands_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Categories_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Statuses_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Stocks_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Taxes_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Addons_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Brands_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Categories_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Statuses_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Stocks_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Taxes_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Addons_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Brands_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Categories_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Statuses_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Stocks_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Taxes_Notifications] (Procedure)
+       [dbo].[Step2c1_MappingProducts_FeedNewRules] (Procedure)
+       [dbo].[Step2c2_MappingProducts_InsertNewProducts] (Procedure)
+       [dbo].[Step2c3_MappingProducts_FillMapTo] (Procedure)
+       [dbo].[Step2c4_MappingProducts_Map] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications1] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications2] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications3] (Procedure)
+
+** Supporting actions

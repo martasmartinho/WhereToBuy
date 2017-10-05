@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivas].[IDX_CotacoesAtivas] on [dbo].[CotacoesAtivas]
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivas].[IDX_CotacoesAtivas] on [dbo].[CotacoesAtivas]
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CotacoesAtivas] (View)
+     Create
+       [dbo].[CotacoesNaoIntegradas] (View)
+
+** Supporting actions
+     Drop
+       [dbo].[CotacoesAtivas].[IDX_CotacoesAtivas] (Index)
+     Create
+       [dbo].[CotacoesAtivas].[IDX_CotacoesAtivas] (Index)

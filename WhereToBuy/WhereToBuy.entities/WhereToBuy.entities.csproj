@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{32183189-2385-46A8-B77C-5FFF8D2460D1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WhereToBuy.entities</RootNamespace>
+    <AssemblyName>WhereToBuy.entities</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseEntity.cs" />
+    <Compile Include="BaseEntity1.cs" />
+    <Compile Include="Catalogs\Catalog.cs" />
+    <Compile Include="Catalogs\ClassCategory.cs" />
+    <Compile Include="Catalogs\Classe.cs" />
+    <Compile Include="Catalogs\Group.cs" />
+    <Compile Include="Catalogs\Subgroup.cs" />
+    <Compile Include="Catalogs\SubgroupClass.cs" />
+    <Compile Include="Enumerators.cs" />
+    <Compile Include="Quotations\BrandMatching.cs" />
+    <Compile Include="Quotations\Category.cs" />
+    <Compile Include="Quotations\CategoryMatching.cs" />
+    <Compile Include="Quotations\Language.cs" />
+    <Compile Include="Quotations\Product.cs" />
+    <Compile Include="Quotations\ProductDetail.cs" />
+    <Compile Include="Quotations\ProductMatching.cs" />
+    <Compile Include="Quotations\Quotation.cs" />
+    <Compile Include="Quotations\QuotationRule.cs" />
+    <Compile Include="Quotations\State.cs" />
+    <Compile Include="Quotations\StateMatching.cs" />
+    <Compile Include="Quotations\Stock.cs" />
+    <Compile Include="Quotations\StockMatching.cs" />
+    <Compile Include="Quotations\Supplement.cs" />
+    <Compile Include="Quotations\SupplementMatching.cs" />
+    <Compile Include="Quotations\Supplier.cs" />
+    <Compile Include="Quotations\SupplierBrand.cs" />
+    <Compile Include="Quotations\Tax.cs" />
+    <Compile Include="Quotations\TaxMatching.cs" />
+    <Compile Include="Quotations\User.cs" />
+    <Compile Include="MyException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quotations\Brand.cs" />
+    <Compile Include="Quotations\QuotationWarning.cs" />
+    <Compile Include="Quotations\WarningType.cs" />
+    <Compile Include="Quotations\WorryingTerm.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

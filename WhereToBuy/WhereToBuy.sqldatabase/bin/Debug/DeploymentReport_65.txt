@@ -1,0 +1,50 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[ComplementosMatching]
+       [dbo].[Cotacoes]
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[ComplementosMatching] (Table)
+       [dbo].[Cotacoes] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Unbind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Create
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Rebind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Refresh
+       [dbo].[CotacoesAtuaisView] (View)
+       [dbo].[CotacoesIncompletasView] (View)
+       [dbo].[CotacoesNaoIntegradasView] (View)
+       [dbo].[CotacaoInsertSP] (Procedure)

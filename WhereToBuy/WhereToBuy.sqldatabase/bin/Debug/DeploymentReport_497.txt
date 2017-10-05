@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[BrandMatchingSelect] (Procedure)
+       [dbo].[CategoryMatchingInsert] (Procedure)
+       [dbo].[CategoryMatchingSelect] (Procedure)
+       [dbo].[CategoryMatchingUpdate] (Procedure)
+       [dbo].[StateMatchingSelect] (Procedure)
+       [dbo].[StockMatchingSelect] (Procedure)
+       [dbo].[SupplementMatchingSelect] (Procedure)
+       [dbo].[SupplierBrandSelect] (Procedure)
+       [dbo].[TaxMatchingSelect] (Procedure)
+     Create
+       [dbo].[QuotationRuleCount] (Procedure)
+       [dbo].[QuotationRuleDelete] (Procedure)
+       [dbo].[QuotationRuleInsert] (Procedure)
+       [dbo].[QuotationRuleSelect] (Procedure)
+       [dbo].[QuotationRuleUpdate] (Procedure)
+
+** Supporting actions

@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Utilizadores]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Username in table [dbo].[Utilizadores] is currently  NVARCHAR (25) NOT NULL but is being changed to 
+         NVARCHAR (20) NOT NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[Utilizadores] (Table)
+
+** Supporting actions
+     Refresh
+       [dbo].[UserDelete] (Procedure)
+       [dbo].[UserInsert] (Procedure)
+       [dbo].[UserUpdate] (Procedure)
+
+The type for column Username in table [dbo].[Utilizadores] is currently  NVARCHAR (25) NOT NULL but is being changed to  NVARCHAR (20) NOT NULL. Data loss could occur.
+

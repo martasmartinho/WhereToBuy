@@ -1,0 +1,90 @@
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.data\obj\Debug\WhereToBuy.data.pdb

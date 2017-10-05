@@ -1,0 +1,27 @@
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.csprojResolveAssemblyReference.cache
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.csprojResolveAssemblyReference.cache
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.entities\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.entities\obj\Debug\WhereToBuy.entities.csprojResolveAssemblyReference.cache

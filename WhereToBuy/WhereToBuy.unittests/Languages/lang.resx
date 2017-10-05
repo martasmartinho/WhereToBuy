@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiveOnlineAccessString" xml:space="preserve">
+    <value>Acesso online ativo</value>
+  </data>
+  <data name="ActomaticProductCreationString" xml:space="preserve">
+    <value>Creação de produtos automático</value>
+  </data>
+  <data name="AddressString" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="AdministratorString" xml:space="preserve">
+    <value>Administrator</value>
+  </data>
+  <data name="AllString" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="AtiveString" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="AutomaticProductMatchingString" xml:space="preserve">
+    <value>Mapeamento de produtos automático</value>
+  </data>
+  <data name="BooleanInconsistentString" xml:space="preserve">
+    <value>Boolean value inconsistent with</value>
+  </data>
+  <data name="BoundString" xml:space="preserve">
+    <value>Bound</value>
+  </data>
+  <data name="BrandString" xml:space="preserve">
+    <value>Brand</value>
+  </data>
+  <data name="CellphoneString" xml:space="preserve">
+    <value>Cell phone</value>
+  </data>
+  <data name="CityString" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="CodeString" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="CreationString" xml:space="preserve">
+    <value>Creation</value>
+  </data>
+  <data name="DeleteSqlErrorsString" xml:space="preserve">
+    <value>There are no sql errors but is not possible to delete record</value>
+  </data>
+  <data name="DescriptionString" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DividersErrorString" xml:space="preserve">
+    <value>It's not possible to get divisers of a number lower then 1</value>
+  </data>
+  <data name="EditionModeString" xml:space="preserve">
+    <value>Edition mode</value>
+  </data>
+  <data name="EmailString" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ExistActiveString" xml:space="preserve">
+    <value>Does exist, but is not active</value>
+  </data>
+  <data name="ExistInactiveString" xml:space="preserve">
+    <value>Does exist, but is not inactive</value>
+  </data>
+  <data name="ExistingInsertCodeString" xml:space="preserve">
+    <value>The code you are trying to insert already exists</value>
+  </data>
+  <data name="HigherDateString" xml:space="preserve">
+    <value>Date higher than allowed</value>
+  </data>
+  <data name="IconString" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="IdentificationNumberString" xml:space="preserve">
+    <value>Tax identification</value>
+  </data>
+  <data name="InactiveAutomaticUpdateSuggestionString" xml:space="preserve">
+    <value>Atualização automática da suggestão</value>
+  </data>
+  <data name="InactiveDescriptionSuggestionString" xml:space="preserve">
+    <value>Sugestão para a descrição inativa</value>
+  </data>
+  <data name="InactiveFeatureSuggestionString" xml:space="preserve">
+    <value>Sugestão para as caracteristicas inativa</value>
+  </data>
+  <data name="InactiveImageSugestionString" xml:space="preserve">
+    <value>Sugestão para a imagem inativa</value>
+  </data>
+  <data name="InactiveLinkSuggestionString" xml:space="preserve">
+    <value>Sugestão para o link inativa</value>
+  </data>
+  <data name="InactiveString" xml:space="preserve">
+    <value>Inactive</value>
+  </data>
+  <data name="InconsistencyString" xml:space="preserve">
+    <value>Inconsistency</value>
+  </data>
+  <data name="InfoProductDetailAvailableString" xml:space="preserve">
+    <value>Detalhes de informação de produto disponíveis</value>
+  </data>
+  <data name="InicialScoreFeaturesString" xml:space="preserve">
+    <value>Pontuação inicial das caracteristicas</value>
+  </data>
+  <data name="InicialScoreImageString" xml:space="preserve">
+    <value>Pontuação inicial da imagem</value>
+  </data>
+  <data name="InicialScoreLinkString" xml:space="preserve">
+    <value>pontuação inicial do link</value>
+  </data>
+  <data name="InitialScoreDescriptionString" xml:space="preserve">
+    <value>Pontuação inicial da descrição</value>
+  </data>
+  <data name="InsertSqlErrorsString" xml:space="preserve">
+    <value>There are no sql errors but is not possible to insert record</value>
+  </data>
+  <data name="LanguageString" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LargerTextString" xml:space="preserve">
+    <value>Text size larger than allowed</value>
+  </data>
+  <data name="LowerDateString" xml:space="preserve">
+    <value>Date lower than allowed</value>
+  </data>
+  <data name="MustBeFilledString" xml:space="preserve">
+    <value>Must be filled</value>
+  </data>
+  <data name="NameString" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NotesString" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="NotExistingDeleteCodeString" xml:space="preserve">
+    <value>The code you are trying to delete does not exists</value>
+  </data>
+  <data name="NotExistingUpdateCodeString" xml:space="preserve">
+    <value>The code you are trying to change does not exists</value>
+  </data>
+  <data name="NotExistString" xml:space="preserve">
+    <value>Doesn't exist</value>
+  </data>
+  <data name="OthersString" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="PasswordString" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PhoneString" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ProductAvailableTrustString" xml:space="preserve">
+    <value>Confiança na disponibilidade do produto</value>
+  </data>
+  <data name="ProductPriceTrustString" xml:space="preserve">
+    <value>Confiança no preço do produto</value>
+  </data>
+  <data name="RecordNotFoundString" xml:space="preserve">
+    <value>No record found with the code</value>
+  </data>
+  <data name="SalesmanString" xml:space="preserve">
+    <value>Seller</value>
+  </data>
+  <data name="SeverityString" xml:space="preserve">
+    <value>Severity</value>
+  </data>
+  <data name="SmallerTextString" xml:space="preserve">
+    <value>Text size smaller than allowed</value>
+  </data>
+  <data name="SmsString" xml:space="preserve">
+    <value>Sms</value>
+  </data>
+  <data name="SuggestionExpireHoursString" xml:space="preserve">
+    <value>Sugestão de horas de expiração</value>
+  </data>
+  <data name="SupplierString" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="TypeString" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="UpdateSqlErrorsString" xml:space="preserve">
+    <value>There are no sql errors but is not possible to update record</value>
+  </data>
+  <data name="UsernameString" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UserString" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="WarningTypeString" xml:space="preserve">
+    <value>Warning type</value>
+  </data>
+  <data name="ZipCodeString" xml:space="preserve">
+    <value>Zip code</value>
+  </data>
+</root>

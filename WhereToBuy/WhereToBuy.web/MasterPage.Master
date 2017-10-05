@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="WhereToBuy.web.MasterPage"%>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>WhereToBuy</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <%--  <link href="Content/bootstrap.min.css" rel="stylesheet" />--%>
+    <link href="Content/style.css" rel="stylesheet" />
+    <link href="Content/login.css" rel="stylesheet" />  
+    
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="description" content="The description of my page" />
+
+</head>
+
+<body class="content">
+    <%-- Navigation--%>
+    <nav class="navbar navbar-inverse navbar-fixed-top affix">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <%--<a class="navbar-brand" NavigateUrl="#">WhereToBuy</a>--%>
+                <asp:HyperLink ID="SystemBrandLink" runat="server" CssClass="navbar-brand" NavigateUrl="/" Text="<%$ Resources:lang, SystemBrandString %>"></asp:HyperLink>
+
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse" style="margin-right: 10px">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <asp:HyperLink ID="Home" runat="server" NavigateUrl="/App/StatePanel/StatePanel.aspx" Text="<%$ Resources:lang, HomeString %>">Home</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="tablesMenu" runat="server" CssClass="dropdown-link hyperlink" data-toggle="dropdown" Text="<%$ Resources:lang, TablesString %>">Tables</asp:HyperLink>
+                        <ul class="dropdown-menu dropdown-menu-left" aria-labelledby="tablesMenu">
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Suppliers/Suppliers/Suppliers.aspx" Text="<%$ Resources:lang, SuppliersString %>">Suppliers</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Brands/Brands/Brands.aspx" Text="<%$ Resources:lang, BrandsString %>">Brands</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Categories/Categories/Categories.aspx" Text="<%$ Resources:lang, CategoriesString %>">Categories</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Stocks/Stocks/Stocks.aspx" Text="<%$ Resources:lang, StocksString %>">Stocks</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Taxes/Taxes/Taxes.aspx" Text="<%$ Resources:lang, TaxesString %>">Taxes</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Supplements/Supplements/Supplements.aspx" Text="<%$ Resources:lang, SupplementsString %>">Supplements</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/States/States/States.aspx" Text="<%$ Resources:lang, StatesString %>">States</asp:HyperLink></li>
+                             <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/WorryingTerms/WorryingTerms/WorryingTerms.aspx" Text="<%$ Resources:lang, WorryingTermsString %>"></asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/WarningTypes/WarningTypes/WarningTypes.aspx" Text="<%$ Resources:lang, WarningTypesString %>"></asp:HyperLink></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="matchingMenu" runat="server" CssClass="dropdown-link hyperlink" data-toggle="dropdown" Text="<%$ Resources:lang, MatchingsString %>"></asp:HyperLink>
+                        <ul class="dropdown-menu" aria-labelledby="matchingMenu">
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Brands/BrandsMatching/BrandsMatching.aspx" Text="<%$ Resources:lang, BrandsString %>">Brands</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Categories/CategoriesMatching/CategoriesMatching.aspx" Text="<%$ Resources:lang, CategoriesString %>">Categories</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Stocks/StocksMatching/StocksMatching.aspx" Text="<%$ Resources:lang, StocksString %>">Stocks</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Taxes/TaxesMatching/TaxesMatching.aspx" Text="<%$ Resources:lang, TaxesString %>">Taxes</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Supplements/SupplementsMatching/SupplementsMatching.aspx" Text="<%$ Resources:lang, SupplementsString %>">Supplements</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/States/StatesMatching/StatesMatching.aspx" Text="<%$ Resources:lang, StatesString %>">State</asp:HyperLink></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="quotationMenu" runat="server" CssClass="dropdown-link hyperlink" data-toggle="dropdown" Text="<%$ Resources:lang, QuotationsString %>">Quotations</asp:HyperLink>
+                        <ul class="dropdown-menu" aria-labelledby="quotationMenu">
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/QuotationRules/QuotationRules/QuotationRules.aspx" Text="<%$ Resources:lang, RulesString %>">Rules</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="#" Text="<%$ Resources:lang, QuotationsString %>">Quotations</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/QuotationWarnings/QuotationWarnings.aspx" Text="<%$ Resources:lang, WarningsString %>">Warnings</asp:HyperLink></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="productMenu" runat="server" CssClass="dropdown-link hyperlink" data-toggle="dropdown" Text="<%$ Resources:lang, ProductsString %>">Products</asp:HyperLink>
+                        <ul class="dropdown-menu" aria-labelledby="productMenu">
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Products/ProductsMatching/ProductsMatching.aspx" Text="<%$ Resources:lang, ProductsMatchingString %>">Matching</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Products/Products/Products.aspx" Text="<%$ Resources:lang, ProductsString %>">Products</asp:HyperLink></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="catalogMenu" runat="server" CssClass="dropdown-link hyperlink" data-toggle="dropdown" Text="<%$ Resources:lang, CatalogsString %>">Catalogs</asp:HyperLink>
+                        <ul class="dropdown-menu" aria-labelledby="catalogMenu">
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Catalogs/Catalogs/Catalogs.aspx" Text="<%$ Resources:lang, CatalogsString %>">Catalogs</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Classes/Classes/Classes.aspx" Text="<%$ Resources:lang, ClassesString %>">Classes</asp:HyperLink></li>
+                            <li>
+                                <asp:HyperLink runat="server" NavigateUrl="#" Text="<%$ Resources:lang, StructuresString %>">Structures</asp:HyperLink></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="SignUpLink" runat="server" NavigateUrl="/UserControls/Users/SignUpUC.aspx"><span class="glyphicon glyphicon-user text-info"></span>
+                            <asp:Label ID="UserLabel" runat="server" CssClass="text-info" Text=""></asp:Label></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="LoginLink" runat="server" CssClass="text-info" NavigateUrl="/UserControls/Users/LoguinUC.aspx"><span class="glyphicon glyphicon-log-in text-info"></span>
+                            <asp:Label ID="Label1" runat="server" CssClass="text-info" Text="Login" /></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="LogoutLink" runat="server" CssClass="text-info" Visible="false" NavigateUrl="/App/BrandsMatching/BrandsMatching/BrandsMatching.aspx"><span class="glyphicon glyphicon-log-out text-info"></span>
+                            <asp:Label ID="Label2" runat="server" CssClass="text-info" Text="Login" /></asp:HyperLink>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav">
+        <form runat="server" style="padding-bottom:10%;">
+            <asp:ScriptManager ID="ScriptManager" runat="server" EnablePageMethods="true">
+                <Scripts>
+                    <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.min.js" />
+                    <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
+                    <asp:ScriptReference Path="~/Scripts/jsScript.js" />
+                </Scripts>
+            </asp:ScriptManager>
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+            </asp:ContentPlaceHolder>
+        </form>
+        <div >
+
+        </div>
+        <br/>
+        <br/>
+
+        <footer class="nav navbar navbar-inverse navbar-fixed-bottom text-muted">
+            <div class="container-fluid">
+                <p>&copy; <%: DateTime.Now.Year %> - WhereToBuy</p>
+            </div>
+        </footer>
+    </div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+</body>
+</html>
+

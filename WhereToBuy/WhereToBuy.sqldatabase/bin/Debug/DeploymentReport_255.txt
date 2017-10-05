@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[GetCotacaoValidadeFunction] (Function)
+     Create
+       [dbo].[GetCotacaoValidadeFunction] (Function)
+
+** Supporting actions
+     Drop
+       [dbo].[CotacoesIncompletasNormalizacaoView] (View)
+     Create
+       [dbo].[CotacoesIncompletasNormalizacaoView] (View)
+     Refresh
+       [dbo].[Step2d1_Normalization_OtherFieldsFulfillment] (Procedure)

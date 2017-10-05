@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CotacoesAtuaisAmplitudeExcedidaView] (View)
+       [dbo].[CotacoesAtuaisAmplitudeIrregularView] (View)
+       [dbo].[CotacoesAtuaisPrecosForaIntervaloView] (View)
+       [dbo].[Step2c1_MappingProducts_FeedNewRules] (Procedure)
+       [dbo].[Step3a1_Preparation_ProductMatchingsReset] (Procedure)
+     Create
+       [dbo].[Step4b5_IrregularAmplitude_Notifications] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[Step4b3_OutOfInterval_Notifications] (Procedure)
+       [dbo].[Step4b4_OutOfInterval_Execution] (Procedure)

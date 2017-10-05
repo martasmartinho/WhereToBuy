@@ -1,0 +1,58 @@
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dll
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.pdb
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\Model.xml
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\refactor.xml
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\postdeploy.sql
+C:\Trabalho\Desenvolvimento\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\predeploy.sql
+C:\Users\Marta\Google Drive\codigo\VStudio\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+C:\Users\Marta\Google Drive\codigo\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\Model.xml
+C:\Users\Marta\Google Drive\codigo\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\refactor.xml
+C:\Users\Marta\Google Drive\codigo\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\postdeploy.sql
+C:\Users\Marta\Google Drive\codigo\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\predeploy.sql
+C:\Users\Marta\Google Drive\codigo\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Google Drive\codigo\VStudio\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\Model.xml
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\refactor.xml
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\postdeploy.sql
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\predeploy.sql
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\Model.xml
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\refactor.xml
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\postdeploy.sql
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\predeploy.sql
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dacpac
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\bin\Debug\WhereToBuy.sqldatabase.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\Model.xml
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\refactor.xml
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\postdeploy.sql
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\predeploy.sql
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.sqldatabase\obj\Debug\WhereToBuy.sqldatabase.pdb

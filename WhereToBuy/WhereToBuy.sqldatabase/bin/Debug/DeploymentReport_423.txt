@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[CotacoesAtuaisAmplitudeExcedidaView] (View)
+
+** Supporting actions
+     Refresh
+       [dbo].[CotacoesAtuaisAmplitudeIrregularView] (View)
+       [dbo].[Step4b5_Cautions_IrregularAmplitude_Notifications] (Procedure)
+       [dbo].[Step4b6_Cautions_IrregularAmplitude_Execution] (Procedure)

@@ -1,0 +1,200 @@
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll.config
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\AjaxControlToolkit.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.App_GlobalResources.lang.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.fr-FR.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.pt-PT.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csproj.GenerateResource.Cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.web.dll.config
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.web.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.web.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\AjaxControlToolkit.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.core.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.utils.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.core.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.utils.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\bin\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.App_GlobalResources.lang.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.fr-FR.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.pt-PT.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.csproj.GenerateResource.Cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\Backups\29082016\WhereToBuy.web\obj\Debug\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.web.dll.config
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\AjaxControlToolkit.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.core.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.core.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\bin\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.App_GlobalResources.lang.resources
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.resources
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.fr-FR.resources
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.pt-PT.resources
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.csproj.GenerateResource.Cache
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\19092016\WhereToBuy.web\obj\Debug\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll.config
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\AjaxControlToolkit.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.App_GlobalResources.lang.resources
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.resources
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.fr-FR.resources
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.pt-PT.resources
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csproj.GenerateResource.Cache
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.web.dll.config
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\AjaxControlToolkit.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.core.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.core.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\bin\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.App_GlobalResources.lang.resources
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.resources
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.fr-FR.resources
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.Resources.Languages.lang1.pt-PT.resources
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.csproj.GenerateResource.Cache
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\fr-FR\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\pt-PT\WhereToBuy.web.resources.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\GitProjects\MyFirstProject\WhereToBuy.web\obj\Debug\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll.config
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\AjaxControlToolkit.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Antlr3.Runtime.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Microsoft.Web.XmlTransform.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Newtonsoft.Json.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\NuGet.Core.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Net.Http.Formatting.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.WebHost.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Optimization.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WebGrease.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Antlr3.Runtime.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Newtonsoft.Json.xml
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Net.Http.Formatting.xml
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.xml
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.WebHost.xml
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Optimization.xml
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.App_GlobalResources.lang.resources
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csproj.GenerateResource.Cache
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll.config
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.web.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\AjaxControlToolkit.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Antlr3.Runtime.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Microsoft.Web.Infrastructure.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Microsoft.Web.XmlTransform.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Newtonsoft.Json.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\NuGet.Core.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Net.Http.Formatting.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.WebHost.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Optimization.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WebGrease.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.core.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.specs.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.entities.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.utils.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Antlr3.Runtime.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\Newtonsoft.Json.xml
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Net.Http.Formatting.xml
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.xml
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Http.WebHost.xml
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\System.Web.Optimization.xml
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\bin\WhereToBuy.data.pdb
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csprojResolveAssemblyReference.cache
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.App_GlobalResources.lang.resources
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.csproj.GenerateResource.Cache
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.dll
+E:\ProjetosTic\WhereToBuy\WhereToBuy.web\obj\Debug\WhereToBuy.web.pdb

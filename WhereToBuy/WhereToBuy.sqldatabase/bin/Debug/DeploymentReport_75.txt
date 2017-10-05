@@ -1,0 +1,61 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Cotacoes]
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Possible data issues
+       The column [dbo].[Cotacoes].[_EstadoCodigo] on table [dbo].[Cotacoes] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Cotacoes].[_EstadoDescricao] on table [dbo].[Cotacoes] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+
+** User actions
+     Unbind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Table rebuild
+       [dbo].[Cotacoes] (Table)
+     Create
+       [dbo].[Estados] (Table)
+       [dbo].[EstadosMatching] (Table)
+       [dbo].[FK_Cotacoes_Estado] (Foreign Key)
+       [dbo].[FK_EstadosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_EstadosMatching_MapTo] (Foreign Key)
+     Rebind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Create
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Refresh
+       [dbo].[CotacoesAtuaisView] (View)
+       [dbo].[CotacoesIncompletasView] (View)
+       [dbo].[CotacoesNaoIntegradasView] (View)
+       [dbo].[CotacaoInsertSP] (Procedure)
+
+The column [dbo].[Cotacoes].[_EstadoCodigo] on table [dbo].[Cotacoes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Cotacoes].[_EstadoDescricao] on table [dbo].[Cotacoes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

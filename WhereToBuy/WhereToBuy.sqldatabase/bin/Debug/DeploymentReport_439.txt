@@ -1,0 +1,49 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Categorias]
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+       [dbo].[ProdutosAtivosView].[ProdutosAtivosViewIndex] on [dbo].[ProdutosAtivosView]
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Categorias].[Confianca] on table [dbo].[Categorias] must be added, but the column has no default value
+         and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+
+** User actions
+     Drop
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+       [dbo].[ProdutosAtivosView].[ProdutosAtivosViewIndex] (Index)
+     Table rebuild
+       [dbo].[Categorias] (Table)
+     Create
+       [dbo].[IndicesConfiancaMarcaFornecedor] (Table)
+       [dbo].[FK_IndicesConfiancaMarcaFornecedor_Fornecedor] (Foreign Key)
+       [dbo].[FK_IndicesConfiancaMarcaFornecedor_Marca] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ClassesCategorias_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_Produtos_Categoria] (Foreign Key)
+     Create
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ClassesCategorias_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_Produtos_Categoria] (Foreign Key)
+     Refresh
+       [dbo].[CotacoesAtuaisAmplitudeExcedidaView] (View)
+       [dbo].[CotacoesAtuaisPrecosForaIntervaloView] (View)
+       [dbo].[CotacoesAtuaisAmplitudeIrregularView] (View)
+       [dbo].[Step4b3_Cautions_OutOfInterval_Notifications] (Procedure)
+       [dbo].[Step4b4_Cautions_OutOfInterval_Execution] (Procedure)
+       [dbo].[Step4b5_Cautions_IrregularAmplitude_Notifications] (Procedure)
+       [dbo].[Step4b6_Cautions_IrregularAmplitude_Execution] (Procedure)
+
+The column [dbo].[Categorias].[Confianca] on table [dbo].[Categorias] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

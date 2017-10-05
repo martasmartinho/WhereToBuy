@@ -1,0 +1,44 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[FornecedoresMarcas] (Table)
+       [dbo].[FK_FornecedoresMarcas_Fornecedor] (Foreign Key)
+       [dbo].[FK_FornecedoresMarcas_marca] (Foreign Key)
+       [dbo].[CategoryCount] (Procedure)
+       [dbo].[CategoryDelete] (Procedure)
+       [dbo].[CategoryInsert] (Procedure)
+       [dbo].[CategorySelect] (Procedure)
+       [dbo].[CategoryUpdate] (Procedure)
+       [dbo].[StateCount] (Procedure)
+       [dbo].[StateDelete] (Procedure)
+       [dbo].[StateInsert] (Procedure)
+       [dbo].[StateSelect] (Procedure)
+       [dbo].[StateUpdate] (Procedure)
+       [dbo].[SupplementCount] (Procedure)
+       [dbo].[SupplementDelete] (Procedure)
+       [dbo].[SupplementInsert] (Procedure)
+       [dbo].[SupplementSelect] (Procedure)
+       [dbo].[SupplementUpdate] (Procedure)
+       [dbo].[TaxCount] (Procedure)
+       [dbo].[TaxDelete] (Procedure)
+       [dbo].[TaxInsert] (Procedure)
+       [dbo].[TaxSelect] (Procedure)
+       [dbo].[TaxUpdate] (Procedure)
+       [dbo].[WorryingTermCount] (Procedure)
+       [dbo].[WorryingTermDelete] (Procedure)
+       [dbo].[WorryingTermInsert] (Procedure)
+       [dbo].[WorryingTermSelect] (Procedure)
+       [dbo].[WorryingTermUpdate] (Procedure)
+     Alter
+       [dbo].[SupplierSelect] (Procedure)
+
+** Supporting actions

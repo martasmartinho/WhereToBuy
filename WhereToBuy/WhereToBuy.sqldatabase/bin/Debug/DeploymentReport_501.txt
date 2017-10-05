@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[ProdutosAtuaisView] (View)
+       [dbo].[ProductSelect] (Procedure)
+     Create
+       [dbo].[ViewProductSelect] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[Step4a4_Finishing_ProductDescontinuation] (Procedure)

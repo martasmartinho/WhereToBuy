@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+       [dbo].[ProdutosAtivosView].[ProdutosAtivosViewIndex] on [dbo].[ProdutosAtivosView]
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+       [dbo].[ProdutosAtivosView].[ProdutosAtivosViewIndex] (Index)
+       [dbo].[QuotationWarningCount] (Procedure)
+       [dbo].[QuotationWarningDelete] (Procedure)
+       [dbo].[QuotationWarningInsert] (Procedure)
+       [dbo].[QuotationWarningSelect] (Procedure)
+       [dbo].[QuotationWarningUpdate] (Procedure)
+       [dbo].[WarningTypeCount] (Procedure)
+       [dbo].[WarningTypeDelete] (Procedure)
+       [dbo].[WarningTypeInsert] (Procedure)
+       [dbo].[WarningTypeSelect] (Procedure)
+       [dbo].[WarningTypeUpdate] (Procedure)
+
+** Supporting actions

@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Notas in table [dbo].[FornecedoresMarcas] is currently  NVARCHAR (260) NULL but is being changed to 
+         NVARCHAR (256) NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[FornecedoresMarcas] (Table)
+     Create
+       [dbo].[SupplierBrandCount] (Procedure)
+       [dbo].[SupplierBrandDelete] (Procedure)
+       [dbo].[SupplierBrandInsert] (Procedure)
+       [dbo].[SupplierBrandSelect] (Procedure)
+       [dbo].[SupplierBrandUpdate] (Procedure)
+
+** Supporting actions
+
+The type for column Notas in table [dbo].[FornecedoresMarcas] is currently  NVARCHAR (260) NULL but is being changed to  NVARCHAR (256) NULL. Data loss could occur.
+

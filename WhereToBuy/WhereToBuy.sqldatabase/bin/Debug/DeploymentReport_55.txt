@@ -1,0 +1,101 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Cotacoes]
+       [dbo].[Fornecedores]
+       [dbo].[ProdutosDetalhe]
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivasView].[IDX_CotacoesAtivasView] on [dbo].[CotacoesAtivasView]
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivasView].[IDX_CotacoesAtivasView] on [dbo].[CotacoesAtivasView]
+     Possible data issues
+       The column [dbo].[Cotacoes].[_Imagem] on table [dbo].[Cotacoes] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Fornecedores].[ImagemPontuacaoInicial] on table [dbo].[Fornecedores] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+       The column [dbo].[Fornecedores].[ImagemSugereInativo] on table [dbo].[Fornecedores] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProdutosDetalhe].[Imagem] on table [dbo].[ProdutosDetalhe] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProdutosDetalhe].[ImagemInativa] on table [dbo].[ProdutosDetalhe] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+       The column [dbo].[ProdutosDetalhe].[ImagemPontuacao] on table [dbo].[ProdutosDetalhe] must be added, but the column has
+         no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid
+         this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation
+         of smart-defaults as a deployment option.
+
+** User actions
+     Unbind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Table rebuild
+       [dbo].[Cotacoes] (Table)
+       [dbo].[Fornecedores] (Table)
+       [dbo].[ProdutosDetalhe] (Table)
+     Rebind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_StocksMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Produto] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[IDX_CotacoesAtivasView] (Index)
+     Create
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_StocksMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Produto] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[IDX_CotacoesAtivasView] (Index)
+     Refresh
+       [dbo].[CotacoesAtuaisView] (View)
+       [dbo].[CotacoesIncompletasView] (View)
+       [dbo].[CotacoesNaoIntegradasView] (View)
+       [dbo].[CotacaoInsertSP] (Procedure)
+
+The column [dbo].[Cotacoes].[_Imagem] on table [dbo].[Cotacoes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Fornecedores].[ImagemPontuacaoInicial] on table [dbo].[Fornecedores] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Fornecedores].[ImagemSugereInativo] on table [dbo].[Fornecedores] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProdutosDetalhe].[Imagem] on table [dbo].[ProdutosDetalhe] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProdutosDetalhe].[ImagemInativa] on table [dbo].[ProdutosDetalhe] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[ProdutosDetalhe].[ImagemPontuacao] on table [dbo].[ProdutosDetalhe] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[Step4a1_Preparation_OtherFieldsRefresh] (Procedure)
+       [dbo].[Step4c2_Finishing_ProductsDetailUpdate] (Procedure)
+     Create
+       [dbo].[Step4b1_Cautions_FakeStock_Notifications] (Procedure)
+       [dbo].[Step4b2_Cautions_FakeStock_Execution] (Procedure)
+       [dbo].[Step4b3_Cautions_OutOfInterval_Notifications] (Procedure)
+       [dbo].[Step4b4_Cautions_OutOfInterval_Execution] (Procedure)
+       [dbo].[Step4b5_Cautions_IrregularAmplitude_Notifications] (Procedure)
+       [dbo].[Step4b6_Cautions_IrregularAmplitude_Execution] (Procedure)
+
+** Supporting actions

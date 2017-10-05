@@ -1,0 +1,120 @@
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe.config
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe.config
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe.config
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.dll
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.pdb
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csprojResolveAssemblyReference.cache
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.exe
+F:\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe.config
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\fr-FR\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\pt-PT\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.fr-FR.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.pt-PT.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csproj.GenerateResource.Cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\fr-FR\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\pt-PT\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe.config
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\fr-FR\WhereToBuy.unittests.resources.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\pt-PT\WhereToBuy.unittests.resources.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csprojResolveAssemblyReference.cache
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.resources
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.fr-FR.resources
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.pt-PT.resources
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csproj.GenerateResource.Cache
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\fr-FR\WhereToBuy.unittests.resources.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\pt-PT\WhereToBuy.unittests.resources.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.exe
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe.config
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.unittests.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\fr-FR\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\pt-PT\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.core.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\bin\Debug\WhereToBuy.data.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.fr-FR.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.Languages.lang.pt-PT.resources
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.csproj.GenerateResource.Cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\fr-FR\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\pt-PT\WhereToBuy.unittests.resources.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.exe
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento (1)\WhereToBuy\WhereToBuy.unittests\obj\Debug\WhereToBuy.unittests.pdb

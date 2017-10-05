@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB19C46B-2036-42CB-9B82-F7527FACBE38}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WhereToBuy.core</RootNamespace>
+    <AssemblyName>WhereToBuy.core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Catalogs\Catalogs\Catalogs.exist.cs" />
+    <Compile Include="Catalogs\Catalogs\Catalogs.get.cs" />
+    <Compile Include="Catalogs\Catalogs\Catalogs.iud.cs" />
+    <Compile Include="Catalogs\ClassesCategories\ClassesCategories.exist.cs" />
+    <Compile Include="Catalogs\ClassesCategories\ClassesCategories.get.cs" />
+    <Compile Include="Catalogs\ClassesCategories\ClassesCategories.iud.cs" />
+    <Compile Include="Catalogs\Classes\Classes.exist.cs" />
+    <Compile Include="Catalogs\Classes\Classes.get.cs" />
+    <Compile Include="Catalogs\Classes\Classes.iud.cs" />
+    <Compile Include="Catalogs\Groups\Groups.exist.cs" />
+    <Compile Include="Catalogs\Groups\Groups.get.cs" />
+    <Compile Include="Catalogs\Groups\Groups.iud.cs" />
+    <Compile Include="Catalogs\SubgroupsClasses\SubgroupsClasses.exist.cs" />
+    <Compile Include="Catalogs\SubgroupsClasses\SubgroupsClasses.get.cs" />
+    <Compile Include="Catalogs\SubgroupsClasses\SubgroupsClasses.iud.cs" />
+    <Compile Include="Catalogs\Subgroups\Subgroups.exist.cs" />
+    <Compile Include="Catalogs\Subgroups\Subgroups.get.cs" />
+    <Compile Include="Catalogs\Subgroups\Subgroups.iud.cs" />
+    <Compile Include="CoreEngine.cs" />
+    <Compile Include="Quotations\BrandsMatching\BrandsMatching.exist.cs" />
+    <Compile Include="Quotations\BrandsMatching\BrandsMatching.get.cs" />
+    <Compile Include="Quotations\BrandsMatching\BrandsMatching.iud.cs" />
+    <Compile Include="Quotations\CategoriesMatching\CategoriesMatching.exist.cs" />
+    <Compile Include="Quotations\CategoriesMatching\CategoriesMatching.get.cs" />
+    <Compile Include="Quotations\CategoriesMatching\CategoriesMatching.iud.cs" />
+    <Compile Include="Quotations\Categories\Categories.exist.cs" />
+    <Compile Include="Quotations\Categories\Categories.get.cs" />
+    <Compile Include="Quotations\Categories\Categories.iud.cs" />
+    <Compile Include="Quotations\Languages\Languages.exist.cs" />
+    <Compile Include="Quotations\Languages\Languages.get.cs" />
+    <Compile Include="Quotations\Languages\Languages.iud.cs" />
+    <Compile Include="Quotations\ProductDetails\ProductDetails.exist.cs" />
+    <Compile Include="Quotations\ProductDetails\ProductDetails.get.cs" />
+    <Compile Include="Quotations\ProductDetails\ProductDetails.iud.cs" />
+    <Compile Include="Quotations\ProductsMatching\ProductsMatching.exist.cs" />
+    <Compile Include="Quotations\ProductsMatching\ProductsMatching.get.cs" />
+    <Compile Include="Quotations\ProductsMatching\ProductsMatching.iud.cs" />
+    <Compile Include="Quotations\Products\Products.exist.cs" />
+    <Compile Include="Quotations\Products\Products.get.cs" />
+    <Compile Include="Quotations\Products\Products.iud.cs" />
+    <Compile Include="Quotations\QuotationRules\QuotationRules.exist.cs" />
+    <Compile Include="Quotations\QuotationRules\QuotationRules.get.cs" />
+    <Compile Include="Quotations\QuotationRules\QuotationRules.iud.cs" />
+    <Compile Include="Quotations\Quotations\Quotations.exist.cs" />
+    <Compile Include="Quotations\Quotations\Quotations.get.cs" />
+    <Compile Include="Quotations\Quotations\Quotations.iud.cs" />
+    <Compile Include="Quotations\QuotationWarnings\QuotationWarnings.exist.cs" />
+    <Compile Include="Quotations\QuotationWarnings\QuotationWarnings.get.cs" />
+    <Compile Include="Quotations\QuotationWarnings\QuotationWarnings.iud.cs" />
+    <Compile Include="Quotations\StatesMatching\StatesMatching.exist.cs" />
+    <Compile Include="Quotations\StatesMatching\StatesMatching.get.cs" />
+    <Compile Include="Quotations\StatesMatching\StatesMatching.iud.cs" />
+    <Compile Include="Quotations\States\States.exist.cs" />
+    <Compile Include="Quotations\States\States.get.cs" />
+    <Compile Include="Quotations\States\States.iud.cs" />
+    <Compile Include="Quotations\StocksMatching\StocksMatching.exist.cs" />
+    <Compile Include="Quotations\StocksMatching\StocksMatching.get.cs" />
+    <Compile Include="Quotations\StocksMatching\StocksMatching.iud.cs" />
+    <Compile Include="Quotations\Stocks\Stocks.exist.cs" />
+    <Compile Include="Quotations\Stocks\Stocks.get.cs" />
+    <Compile Include="Quotations\Stocks\Stocks.iud.cs" />
+    <Compile Include="Quotations\SupplementsMatching\SupplementsMatching.exist.cs" />
+    <Compile Include="Quotations\SupplementsMatching\SupplementsMatching.get.cs" />
+    <Compile Include="Quotations\SupplementsMatching\SupplementsMatching.iud.cs" />
+    <Compile Include="Quotations\Supplements\Supplements.exist.cs" />
+    <Compile Include="Quotations\Supplements\Supplements.get.cs" />
+    <Compile Include="Quotations\Supplements\Supplements.iud.cs" />
+    <Compile Include="Quotations\SuppliersBrands\SuppliersBrands.exist.cs" />
+    <Compile Include="Quotations\SuppliersBrands\SuppliersBrands.get.cs" />
+    <Compile Include="Quotations\SuppliersBrands\SuppliersBrands.iud.cs" />
+    <Compile Include="Quotations\Suppliers\Suppliers.exist.cs" />
+    <Compile Include="Quotations\Suppliers\Suppliers.get.cs" />
+    <Compile Include="Quotations\Suppliers\Suppliers.iud.cs" />
+    <Compile Include="Quotations\TaxesMatching\TaxesMatching.exist.cs" />
+    <Compile Include="Quotations\TaxesMatching\TaxesMatching.get.cs" />
+    <Compile Include="Quotations\TaxesMatching\TaxesMatching.iud.cs" />
+    <Compile Include="Quotations\Taxes\Taxes.exist.cs" />
+    <Compile Include="Quotations\Taxes\Taxes.get.cs" />
+    <Compile Include="Quotations\Taxes\Taxes.iud.cs" />
+    <Compile Include="Quotations\Users\Users.exist.cs" />
+    <Compile Include="Quotations\Users\Users.get.cs" />
+    <Compile Include="Quotations\Users\Users.iud.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quotations\Brands\Brands.exist.cs" />
+    <Compile Include="Quotations\Brands\Brands.get.cs" />
+    <Compile Include="Quotations\Brands\Brands.iud.cs" />
+    <Compile Include="Quotations\WarningTypes\WarningTypes.exist.cs" />
+    <Compile Include="Quotations\WarningTypes\WarningTypes.get.cs" />
+    <Compile Include="Quotations\WarningTypes\WarningTypes.iud.cs" />
+    <Compile Include="Quotations\WorryingTerms\WorryingTerms.exist.cs" />
+    <Compile Include="Quotations\WorryingTerms\WorryingTerms.get.cs" />
+    <Compile Include="Quotations\WorryingTerms\WorryingTerms.iud.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\WhereToBuy.data\WhereToBuy.data.csproj">
+      <Project>{93ea2bc6-67c3-4e2b-a7b9-831915f445f1}</Project>
+      <Name>WhereToBuy.data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhereToBuy.entities.specs\WhereToBuy.entities.specs.csproj">
+      <Project>{13293538-38d1-402c-88e9-f28832fcd235}</Project>
+      <Name>WhereToBuy.entities.specs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhereToBuy.entities\WhereToBuy.entities.csproj">
+      <Project>{32183189-2385-46a8-b77c-5fff8d2460d1}</Project>
+      <Name>WhereToBuy.entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhereToBuy.utils\WhereToBuy.utils.csproj">
+      <Project>{2bacc67f-d9e3-4f6c-a516-33bb50fd888f}</Project>
+      <Name>WhereToBuy.utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

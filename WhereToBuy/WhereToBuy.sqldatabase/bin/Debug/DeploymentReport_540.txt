@@ -1,0 +1,70 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Fornecedores]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Fornecedores].[IndiceConfianca] on table [dbo].[Fornecedores] must be added, but the column has no
+         default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this
+         issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+
+** User actions
+     Table rebuild
+       [dbo].[Fornecedores] (Table)
+     Alter
+       [dbo].[SupplierInsert] (Procedure)
+       [dbo].[SupplierUpdate] (Procedure)
+       [dbo].[ProductSelect] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_EstadosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_FornecedoresMarcas_Fornecedor] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_StocksMatching_Fornecedor] (Foreign Key)
+     Create
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_EstadosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_FornecedoresMarcas_Fornecedor] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_StocksMatching_Fornecedor] (Foreign Key)
+     Refresh
+       [dbo].[CotacoesMatrizCriacaoProdutosView] (View)
+       [dbo].[CotacoesMatrizPreenchimentoMapToView] (View)
+       [dbo].[CotacoesVencedorasView] (View)
+       [dbo].[ProdutosAtuaisView] (View)
+       [dbo].[ProdutosView] (View)
+       [dbo].[Step4c3_Finishing_ProductsDetailInsert] (Procedure)
+       [dbo].[Step2b1z_QuotationRules_FeedNewRules] (Procedure)
+       [dbo].[Step2c4_MappingProducts_Map] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications1] (Procedure)
+       [dbo].[Step3a1_Preparation_ProductMatchingsReset] (Procedure)
+       [dbo].[Step3a2_Preparation_QuotationRulesReset] (Procedure)
+       [dbo].[SupplierDelete] (Procedure)
+       [dbo].[Step2c2_MappingProducts_InsertNewProducts] (Procedure)
+       [dbo].[Step2c3_MappingProducts_FillMapTo] (Procedure)
+       [dbo].[Step4c1_Finishing_ProductsUpdate] (Procedure)
+       [dbo].[Step4a4_Finishing_ProductDescontinuation] (Procedure)
+
+The column [dbo].[Fornecedores].[IndiceConfianca] on table [dbo].[Fornecedores] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

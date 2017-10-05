@@ -1,0 +1,53 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[MarcasMatching]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[MarcasMatching] (Table)
+     Alter
+       [dbo].[BrandMatchingDelete] (Procedure)
+       [dbo].[BrandMatchingInsert] (Procedure)
+       [dbo].[BrandMatchingUpdate] (Procedure)
+       [dbo].[CategoryMatchingDelete] (Procedure)
+       [dbo].[CategoryMatchingInsert] (Procedure)
+       [dbo].[CategoryMatchingUpdate] (Procedure)
+     Create
+       [dbo].[StateMatchingCount] (Procedure)
+       [dbo].[StateMatchingDelete] (Procedure)
+       [dbo].[StateMatchingInsert] (Procedure)
+       [dbo].[StateMatchingSelect] (Procedure)
+       [dbo].[StateMatchingUpdate] (Procedure)
+       [dbo].[StockMatchingCount] (Procedure)
+       [dbo].[StockMatchingDelete] (Procedure)
+       [dbo].[StockMatchingInsert] (Procedure)
+       [dbo].[StockMatchingSelect] (Procedure)
+       [dbo].[StockMatchingUpdate] (Procedure)
+       [dbo].[SupplementMatchingCount] (Procedure)
+       [dbo].[SupplementMatchingDelete] (Procedure)
+       [dbo].[SupplementMatchingInsert] (Procedure)
+       [dbo].[SupplementMatchingSelect] (Procedure)
+       [dbo].[SupplementMatchingUpdate] (Procedure)
+       [dbo].[TaxMatchingCount] (Procedure)
+       [dbo].[TaxMatchingDelete] (Procedure)
+       [dbo].[TaxMatchingInsert] (Procedure)
+       [dbo].[TaxMatchingSelect] (Procedure)
+       [dbo].[TaxMatchingUpdate] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+     Create
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+     Refresh
+       [dbo].[Step2b1a_Mappings_Brands_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Brands_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Brands_Notifications] (Procedure)

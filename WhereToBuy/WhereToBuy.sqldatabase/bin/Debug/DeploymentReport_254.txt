@@ -1,0 +1,94 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Cotacoes]
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Possible data issues
+       The column [dbo].[Cotacoes].[_Validade] on table [dbo].[Cotacoes] must be added, but the column has no default value and
+         does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must
+         either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults
+         as a deployment option.
+       The column [dbo].[Cotacoes].[_ValidadeDescricao] on table [dbo].[Cotacoes] must be added, but the column has no default
+         value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue
+         you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of
+         smart-defaults as a deployment option.
+
+** User actions
+     Unbind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Table rebuild
+       [dbo].[Cotacoes] (Table)
+     Rebind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Alter
+       [dbo].[CotacaoInsertSP] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Estado] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Create
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Estado] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Refresh
+       [dbo].[CotacoesAtuaisView] (View)
+       [dbo].[CotacoesIncompletasView] (View)
+       [dbo].[CotacoesNaoIntegradasView] (View)
+       [dbo].[CotacoesIncompletasMapeamentoProdutoView] (View)
+       [dbo].[CotacoesIncompletasNormalizacaoView] (View)
+       [dbo].[CotacoesMatrizPreenchimentoMapToView] (View)
+       [dbo].[PartnumbersAmbiguosView] (View)
+       [dbo].[ProdutosCodigosInexistentesView] (View)
+       [dbo].[CotacoesMatrizCriacaoProdutosView] (View)
+       [dbo].[Step2a2_DeleteExpiredQuotations] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications3] (Procedure)
+       [dbo].[Step2a3_SetInactiveExpiredQuotations] (Procedure)
+       [dbo].[DeleteIncompleteExistingQuotations] (Procedure)
+       [dbo].[Step2b1a_Mappings_Addons_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Brands_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Categories_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Statuses_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Stocks_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Taxes_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Addons_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Brands_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Categories_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Statuses_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Stocks_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Taxes_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Addons_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Brands_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Categories_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Statuses_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Stocks_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Taxes_Notifications] (Procedure)
+       [dbo].[Step2b1z_QuotationsRules_FeedNewRules] (Procedure)
+       [dbo].[Step2c1_MappingProducts_FeedNewRules] (Procedure)
+       [dbo].[Step2c4_MappingProducts_Map] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications1] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications2] (Procedure)
+       [dbo].[Step2d1_Normalization_OtherFieldsFulfillment] (Procedure)
+       [dbo].[Step2c2_MappingProducts_InsertNewProducts] (Procedure)
+       [dbo].[Step2c3_MappingProducts_FillMapTo] (Procedure)
+
+The column [dbo].[Cotacoes].[_Validade] on table [dbo].[Cotacoes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+The column [dbo].[Cotacoes].[_ValidadeDescricao] on table [dbo].[Cotacoes] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+

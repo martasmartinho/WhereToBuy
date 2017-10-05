@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[BrandUpdate] (Procedure)
+       [dbo].[CategoryUpdate] (Procedure)
+       [dbo].[LanguageUpdate] (Procedure)
+       [dbo].[StateUpdate] (Procedure)
+       [dbo].[SupplementUpdate] (Procedure)
+       [dbo].[TaxUpdate] (Procedure)
+       [dbo].[UserUpdate] (Procedure)
+       [dbo].[WarningTypeUpdate] (Procedure)
+       [dbo].[WorryingTermCount] (Procedure)
+       [dbo].[WorryingTermDelete] (Procedure)
+       [dbo].[WorryingTermInsert] (Procedure)
+       [dbo].[WorryingTermSelect] (Procedure)
+       [dbo].[WorryingTermUpdate] (Procedure)
+
+** Supporting actions

@@ -1,0 +1,1521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38CEBAEE-C3BC-46D7-BD37-FA20A9EEF38F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WhereToBuy.web</RootNamespace>
+    <AssemblyName>WhereToBuy.web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=17.1.1.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.17.1.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Web.XmlTransform, Version=2.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Xdt.2.1.1\lib\net40\Microsoft.Web.XmlTransform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Core, Version=2.14.0.832, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Core.2.14.0\lib\net40-Client\NuGet.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Catalogs\Catalogs\Catalogs.aspx" />
+    <Content Include="App\Catalogs\Catalog\Catalog.aspx" />
+    <Content Include="App\Categories\CategoriesMatching\CategoriesMatching.aspx" />
+    <Content Include="App\Categories\Categories\Categories.aspx" />
+    <Content Include="App\Categories\CategoryMatching\CategoryMatching.aspx" />
+    <Content Include="App\Categories\Category\Category.aspx" />
+    <Content Include="App\Classes\Classes\Classes.aspx" />
+    <Content Include="App\Classes\Class\Class.aspx" />
+    <Content Include="App\Products\ProductMatching\ProductMatching.aspx" />
+    <Content Include="App\Products\ProductsMatching\ProductsMatching.aspx" />
+    <Content Include="App\Products\Products\Products.aspx" />
+    <Content Include="App\Products\Product\Product.aspx" />
+    <Content Include="App\QuotationRules\QuotationRules\QuotationRules.aspx" />
+    <Content Include="App\QuotationRules\QuotationRule\QuotationRule.aspx" />
+    <Content Include="App\Quotations\Quotation\Quotation.aspx" />
+    <Content Include="App\Quotations\Quotitions\Quotations.aspx" />
+    <Content Include="App\QuotationWarnings\QuotationWarnings.aspx" />
+    <Content Include="App\Stocks\StockMatching\StockMatching.aspx" />
+    <Content Include="App\Stocks\StocksMatching\StocksMatching.aspx" />
+    <Content Include="App\Stocks\Stocks\Stocks.aspx" />
+    <Content Include="App\Stocks\Stock\Stock.aspx" />
+    <Content Include="App\Structures\Structures\Structures.aspx" />
+    <Content Include="App\Structures\Structure\Structure.aspx" />
+    <Content Include="App\Supplements\SupplementsMatching\SupplementsMatching.aspx" />
+    <Content Include="App\Supplements\Supplements\Supplements.aspx" />
+    <Content Include="App\Supplements\Supplement\Supplement.aspx" />
+    <Content Include="App\Suppliers\Suppliers\Suppliers.aspx" />
+    <Content Include="App\Suppliers\Supplier\Supplier.aspx" />
+    <Content Include="App\Taxes\TaxesMatching\TaxesMatching.aspx" />
+    <Content Include="App\Taxes\Taxes\Taxes.aspx" />
+    <Content Include="App\Taxes\TaxMatching\TaxMatching.aspx" />
+    <Content Include="App\Taxes\Tax\Tax.aspx" />
+    <Content Include="App\Users\Users\Users.aspx" />
+    <Content Include="App\Users\User\User.aspx" />
+    <Content Include="App\WarningTypes\WarningTypes\WarningTypes.aspx" />
+    <Content Include="App\WarningTypes\WarningType\WarningType.aspx" />
+    <Content Include="App\WorryingTerms\WorryingTerms\WorryingTerms.aspx" />
+    <Content Include="App\WorryingTerms\WorryingTerm\WorryingTerm.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\login.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Resources\Images\avatar_2x.png" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\Brands\BrandMatching\BrandMatching.aspx" />
+    <Content Include="App\Brands\BrandsMatching\BrandsMatching.aspx" />
+    <Content Include="App\Brands\Brands\Brands.aspx" />
+    <Content Include="App\Brands\Brand\Brand.aspx" />
+    <Content Include="App\States\StateMatching\StateMatching.aspx" />
+    <Content Include="App\States\StatesMatching\StatesMatching.aspx" />
+    <Content Include="App\States\States\States.aspx" />
+    <Content Include="App\States\State\State.aspx" />
+    <Content Include="App\Supplements\SupplementMatching\SupplementMatching.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="packages.config" />
+    <Content Include="MasterPage.Master" />
+    <Content Include="Default.aspx" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jsScript.js" />
+    <Content Include="UserControls\Authentication\Login\Login.ascx" />
+    <Content Include="UserControls\Brands\BrandMatching\BrandMatchingUC.ascx" />
+    <Content Include="UserControls\Brands\BrandsSelBox\BrandsSelBox.ascx" />
+    <Content Include="UserControls\Brands\Brands\BrandsUC.ascx" />
+    <Content Include="UserControls\Brands\Brand\BrandUC.ascx" />
+    <Content Include="UserControls\Catalogs\Catalogs\CatalogsUC.ascx" />
+    <Content Include="UserControls\Catalogs\Catalog\CatalogsSelBox\CatalogsSelBox.ascx" />
+    <Content Include="UserControls\Catalogs\Catalog\CatalogUC.ascx" />
+    <Content Include="UserControls\Categories\CategoriesMatching\CategoriesMatchingUC.ascx" />
+    <Content Include="UserControls\Categories\CategoriesSelBox\CategoriesSelBox.ascx" />
+    <Content Include="UserControls\Categories\Categories\CategoriesUC.ascx" />
+    <Content Include="UserControls\Categories\CategoryMatching\CategoryMatchingUC.ascx" />
+    <Content Include="UserControls\Categories\Category\CategoryUC.ascx" />
+    <Content Include="UserControls\Classes\Classes\ClassesUC.ascx" />
+    <Content Include="UserControls\Classes\Class\ClassUC.ascx" />
+    <Content Include="UserControls\MessageUC.ascx" />
+    <Content Include="UserControls\Products\ProductDetails\ProductDetailsUC.ascx" />
+    <Content Include="UserControls\Products\ProductMatching\ProductMatchingUC.ascx" />
+    <Content Include="UserControls\Products\ProductsMatching\ProductsMatchingUC.ascx" />
+    <Content Include="UserControls\Products\ProductsSelBox\ProductsSelBox.ascx" />
+    <Content Include="UserControls\Products\Products\ProductsUC.ascx" />
+    <Content Include="UserControls\Products\Product\ProductUC.ascx" />
+    <Content Include="UserControls\QuotationRules\QuotationRules\QuotationRulesUC.ascx" />
+    <Content Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.ascx" />
+    <Content Include="UserControls\QuotationWarnings\QuotationWarningsUC.ascx" />
+    <Content Include="UserControls\StatePanel\E-Commerce.png" />
+    <Content Include="UserControls\StatePanel\StatePanel.aspx" />
+    <Content Include="UserControls\States\StateMatching\StateMatchingUC.ascx" />
+    <Content Include="UserControls\States\StatesMatching\StatesMatchingUC.ascx" />
+    <Content Include="UserControls\States\StatesSelBox\StatesSelBox.ascx" />
+    <Content Include="UserControls\States\States\StatesUC.ascx" />
+    <Content Include="UserControls\States\State\StateUC.ascx" />
+    <Content Include="UserControls\Stocks\StockMatching\StockMatchingUC.ascx" />
+    <Content Include="UserControls\Stocks\StocksMatching\StocksMatchingUC.ascx" />
+    <Content Include="UserControls\Stocks\StocksSelBox\StocksSelBox.ascx" />
+    <Content Include="UserControls\Stocks\Stocks\StocksUC.ascx" />
+    <Content Include="UserControls\Stocks\Stock\StockUC.ascx" />
+    <Content Include="UserControls\Supplements\SupplementMatching\SupplementMatchingUC.ascx" />
+    <Content Include="UserControls\Supplements\SupplementsSelBox\SupplementsSelBox.ascx" />
+    <Content Include="UserControls\Supplements\SupplementsMatching\SupplementsMatchingUC.ascx" />
+    <Content Include="UserControls\Supplements\Supplements\SupplementsUC.ascx" />
+    <Content Include="UserControls\Supplements\Supplement\SupplementUC.ascx" />
+    <Content Include="UserControls\Suppliers\SuppliersSelBox\SuppliersSelBox.ascx" />
+    <Content Include="UserControls\Suppliers\Suppliers\SuppliersUC.ascx" />
+    <Content Include="UserControls\Suppliers\Supplier\SupplierUC.ascx" />
+    <Content Include="UserControls\Taxes\TaxesMatching\TaxesMatchingUC.ascx" />
+    <Content Include="UserControls\Taxes\Taxes\TaxesUC.ascx" />
+    <Content Include="UserControls\Taxes\TaxMatching\TaxMatchingUC.ascx" />
+    <Content Include="UserControls\Taxes\TaxSelBox\TaxSelBox.ascx" />
+    <Content Include="UserControls\Taxes\Tax\TaxUC.ascx" />
+    <Content Include="UserControls\WarningTypes\WarningTypesSelBox\WarningTypesSelBox.ascx" />
+    <Content Include="UserControls\WarningTypes\WarningTypes\WarningTypesUC.ascx" />
+    <Content Include="UserControls\WarningTypes\WarningType\WarningTypeUC.ascx" />
+    <Content Include="UserControls\WorryingTerms\WorryingTerms\WorryingTermsUC.ascx" />
+    <Content Include="UserControls\WorryingTerms\WorryingTerm\WorryingTermUC.ascx" />
+    <Content Include="Resources\Images\rigthArrow.png" />
+    <Content Include="UserControls\Brands\BrandsMatching\BrandsMatchingUC.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App\Brands\BrandMatching\BrandMatching.aspx.cs">
+      <DependentUpon>BrandMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Brands\BrandMatching\BrandMatching.aspx.designer.cs">
+      <DependentUpon>BrandMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Brands\BrandsMatching\BrandsMatching.aspx.cs">
+      <DependentUpon>BrandsMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Brands\BrandsMatching\BrandsMatching.aspx.designer.cs">
+      <DependentUpon>BrandsMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Brands\Brands\Brands.aspx.cs">
+      <DependentUpon>Brands.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Brands\Brands\Brands.aspx.designer.cs">
+      <DependentUpon>Brands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Brands\Brand\Brand.aspx.cs">
+      <DependentUpon>Brand.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Brands\Brand\Brand.aspx.designer.cs">
+      <DependentUpon>Brand.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Catalogs\Catalogs\Catalogs.aspx.cs">
+      <DependentUpon>Catalogs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Catalogs\Catalogs\Catalogs.aspx.designer.cs">
+      <DependentUpon>Catalogs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Catalogs\Catalog\Catalog.aspx.cs">
+      <DependentUpon>Catalog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Catalogs\Catalog\Catalog.aspx.designer.cs">
+      <DependentUpon>Catalog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Categories\CategoriesMatching\CategoriesMatching.aspx.cs">
+      <DependentUpon>CategoriesMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Categories\CategoriesMatching\CategoriesMatching.aspx.designer.cs">
+      <DependentUpon>CategoriesMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Categories\Categories\Categories.aspx.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Categories\Categories\Categories.aspx.designer.cs">
+      <DependentUpon>Categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Categories\CategoryMatching\CategoryMatching.aspx.cs">
+      <DependentUpon>CategoryMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Categories\CategoryMatching\CategoryMatching.aspx.designer.cs">
+      <DependentUpon>CategoryMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Categories\Category\Category.aspx.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Categories\Category\Category.aspx.designer.cs">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Classes\Classes\Classes.aspx.cs">
+      <DependentUpon>Classes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Classes\Classes\Classes.aspx.designer.cs">
+      <DependentUpon>Classes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Classes\Class\Class.aspx.cs">
+      <DependentUpon>Class.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Classes\Class\Class.aspx.designer.cs">
+      <DependentUpon>Class.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Products\ProductMatching\ProductMatching.aspx.cs">
+      <DependentUpon>ProductMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Products\ProductMatching\ProductMatching.aspx.designer.cs">
+      <DependentUpon>ProductMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Products\ProductsMatching\ProductsMatching.aspx.cs">
+      <DependentUpon>ProductsMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Products\ProductsMatching\ProductsMatching.aspx.designer.cs">
+      <DependentUpon>ProductsMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Products\Products\Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Products\Products\Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Products\Product\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Products\Product\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\QuotationRules\QuotationRules\QuotationRules.aspx.cs">
+      <DependentUpon>QuotationRules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\QuotationRules\QuotationRules\QuotationRules.aspx.designer.cs">
+      <DependentUpon>QuotationRules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\QuotationRules\QuotationRule\QuotationRule.aspx.cs">
+      <DependentUpon>QuotationRule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\QuotationRules\QuotationRule\QuotationRule.aspx.designer.cs">
+      <DependentUpon>QuotationRule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Quotations\Quotation\Quotation.aspx.cs">
+      <DependentUpon>Quotation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Quotations\Quotation\Quotation.aspx.designer.cs">
+      <DependentUpon>Quotation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Quotations\Quotitions\Quotations.aspx.cs">
+      <DependentUpon>Quotations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Quotations\Quotitions\Quotations.aspx.designer.cs">
+      <DependentUpon>Quotations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\QuotationWarnings\QuotationWarnings.aspx.cs">
+      <DependentUpon>QuotationWarnings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\QuotationWarnings\QuotationWarnings.aspx.designer.cs">
+      <DependentUpon>QuotationWarnings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\States\StateMatching\StateMatching.aspx.cs">
+      <DependentUpon>StateMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\States\StateMatching\StateMatching.aspx.designer.cs">
+      <DependentUpon>StateMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\States\StatesMatching\StatesMatching.aspx.cs">
+      <DependentUpon>StatesMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\States\StatesMatching\StatesMatching.aspx.designer.cs">
+      <DependentUpon>StatesMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\States\States\States.aspx.cs">
+      <DependentUpon>States.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\States\States\States.aspx.designer.cs">
+      <DependentUpon>States.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\States\State\State.aspx.cs">
+      <DependentUpon>State.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\States\State\State.aspx.designer.cs">
+      <DependentUpon>State.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Stocks\StockMatching\StockMatching.aspx.cs">
+      <DependentUpon>StockMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Stocks\StockMatching\StockMatching.aspx.designer.cs">
+      <DependentUpon>StockMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Stocks\StocksMatching\StocksMatching.aspx.cs">
+      <DependentUpon>StocksMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Stocks\StocksMatching\StocksMatching.aspx.designer.cs">
+      <DependentUpon>StocksMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Stocks\Stocks\Stocks.aspx.cs">
+      <DependentUpon>Stocks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Stocks\Stocks\Stocks.aspx.designer.cs">
+      <DependentUpon>Stocks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Stocks\Stock\Stock.aspx.cs">
+      <DependentUpon>Stock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Stocks\Stock\Stock.aspx.designer.cs">
+      <DependentUpon>Stock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Structures\Structures\Structures.aspx.cs">
+      <DependentUpon>Structures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Structures\Structures\Structures.aspx.designer.cs">
+      <DependentUpon>Structures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Structures\Structure\Structure.aspx.cs">
+      <DependentUpon>Structure.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Structures\Structure\Structure.aspx.designer.cs">
+      <DependentUpon>Structure.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Supplements\SupplementMatching\SupplementMatching.aspx.cs">
+      <DependentUpon>SupplementMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Supplements\SupplementMatching\SupplementMatching.aspx.designer.cs">
+      <DependentUpon>SupplementMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Supplements\SupplementsMatching\SupplementsMatching.aspx.cs">
+      <DependentUpon>SupplementsMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Supplements\SupplementsMatching\SupplementsMatching.aspx.designer.cs">
+      <DependentUpon>SupplementsMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Supplements\Supplements\Supplements.aspx.cs">
+      <DependentUpon>Supplements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Supplements\Supplements\Supplements.aspx.designer.cs">
+      <DependentUpon>Supplements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Supplements\Supplement\Supplement.aspx.cs">
+      <DependentUpon>Supplement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Supplements\Supplement\Supplement.aspx.designer.cs">
+      <DependentUpon>Supplement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Suppliers\Suppliers\Suppliers.aspx.cs">
+      <DependentUpon>Suppliers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Suppliers\Suppliers\Suppliers.aspx.designer.cs">
+      <DependentUpon>Suppliers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Suppliers\Supplier\Supplier.aspx.cs">
+      <DependentUpon>Supplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Suppliers\Supplier\Supplier.aspx.designer.cs">
+      <DependentUpon>Supplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Taxes\TaxesMatching\TaxesMatching.aspx.cs">
+      <DependentUpon>TaxesMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Taxes\TaxesMatching\TaxesMatching.aspx.designer.cs">
+      <DependentUpon>TaxesMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Taxes\Taxes\Taxes.aspx.cs">
+      <DependentUpon>Taxes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Taxes\Taxes\Taxes.aspx.designer.cs">
+      <DependentUpon>Taxes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Taxes\TaxMatching\TaxMatching.aspx.cs">
+      <DependentUpon>TaxMatching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Taxes\TaxMatching\TaxMatching.aspx.designer.cs">
+      <DependentUpon>TaxMatching.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Taxes\Tax\Tax.aspx.cs">
+      <DependentUpon>Tax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Taxes\Tax\Tax.aspx.designer.cs">
+      <DependentUpon>Tax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Users\Users\Users.aspx.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Users\Users\Users.aspx.designer.cs">
+      <DependentUpon>Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Users\User\User.aspx.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Users\User\User.aspx.designer.cs">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\WarningTypes\WarningTypes\WarningTypes.aspx.cs">
+      <DependentUpon>WarningTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\WarningTypes\WarningTypes\WarningTypes.aspx.designer.cs">
+      <DependentUpon>WarningTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\WarningTypes\WarningType\WarningType.aspx.cs">
+      <DependentUpon>WarningType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\WarningTypes\WarningType\WarningType.aspx.designer.cs">
+      <DependentUpon>WarningType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\WorryingTerms\WorryingTerms\WorryingTerms.aspx.cs">
+      <DependentUpon>WorryingTerms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\WorryingTerms\WorryingTerms\WorryingTerms.aspx.designer.cs">
+      <DependentUpon>WorryingTerms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\WorryingTerms\WorryingTerm\WorryingTerm.aspx.cs">
+      <DependentUpon>WorryingTerm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\WorryingTerms\WorryingTerm\WorryingTerm.aspx.designer.cs">
+      <DependentUpon>WorryingTerm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\lang.pt.designer.cs">
+      <DependentUpon>lang.pt.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\lang.fr.designer.cs">
+      <DependentUpon>lang.fr.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\lang.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>lang.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\BaseHelper.cs" />
+    <Compile Include="Helpers\BrandsMatchingHelper.cs" />
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Languages\lang.pt.designer.cs">
+      <DependentUpon>lang.pt.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="UserControls\Authentication\Login\Login.ascx.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Authentication\Login\Login.ascx.designer.cs">
+      <DependentUpon>Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandMatching\BrandMatchingUC.ascx.cs">
+      <DependentUpon>BrandMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandMatching\BrandMatchingUC.ascx.designer.cs">
+      <DependentUpon>BrandMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandMatching\BrandMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandMatching\BrandMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandMatching\BrandMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsMatching\BrandsMatchingUC.ascx.cs">
+      <DependentUpon>BrandsMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsMatching\BrandsMatchingUC.ascx.designer.cs">
+      <DependentUpon>BrandsMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsMatching\BrandsMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsMatching\BrandsMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsMatching\BrandsMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsSelBox\BrandsSelBox.ascx.cs">
+      <DependentUpon>BrandsSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsSelBox\BrandsSelBox.ascx.designer.cs">
+      <DependentUpon>BrandsSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsSelBox\BrandsSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\BrandsSelBox\BrandsSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brands\BrandsUC.ascx.cs">
+      <DependentUpon>BrandsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brands\BrandsUC.ascx.designer.cs">
+      <DependentUpon>BrandsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brands\BrandsUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brands\BrandsUC.events.cs" />
+    <Compile Include="UserControls\Brands\Brands\BrandsUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brand\BrandUC.ascx.cs">
+      <DependentUpon>BrandUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brand\BrandUC.ascx.designer.cs">
+      <DependentUpon>BrandUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brand\BrandUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brand\BrandUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Brands\Brand\BrandUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalogs\CatalogsUC.ascx.cs">
+      <DependentUpon>CatalogsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalogs\CatalogsUC.ascx.designer.cs">
+      <DependentUpon>CatalogsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalogs\CatalogsUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalogs\CatalogsUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalogs\CatalogsUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogsSelBox\CatalogsSelBox.ascx.cs">
+      <DependentUpon>CatalogsSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogsSelBox\CatalogsSelBox.ascx.designer.cs">
+      <DependentUpon>CatalogsSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogsSelBox\CatalogsSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogsSelBox\CatalogsSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogUC.ascx.cs">
+      <DependentUpon>CatalogUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogUC.ascx.designer.cs">
+      <DependentUpon>CatalogUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Catalogs\Catalog\CatalogUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesMatching\CategoriesMatchingUC.ascx.cs">
+      <DependentUpon>CategoriesMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesMatching\CategoriesMatchingUC.ascx.designer.cs">
+      <DependentUpon>CategoriesMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesMatching\CategoriesMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesMatching\CategoriesMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesMatching\CategoriesMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesSelBox\CategoriesSelBox.ascx.cs">
+      <DependentUpon>CategoriesSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesSelBox\CategoriesSelBox.ascx.designer.cs">
+      <DependentUpon>CategoriesSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesSelBox\CategoriesSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoriesSelBox\CategoriesSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Categories\CategoriesUC.ascx.cs">
+      <DependentUpon>CategoriesUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Categories\CategoriesUC.ascx.designer.cs">
+      <DependentUpon>CategoriesUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Categories\Categories\CategoriesUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Categories\CategoriesUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Categories\CategoriesUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoryMatching\CategoryMatchingUC.ascx.cs">
+      <DependentUpon>CategoryMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoryMatching\CategoryMatchingUC.ascx.designer.cs">
+      <DependentUpon>CategoryMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoryMatching\CategoryMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoryMatching\CategoryMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\CategoryMatching\CategoryMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Category\CategoryUC.ascx.cs">
+      <DependentUpon>CategoryUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Category\CategoryUC.ascx.designer.cs">
+      <DependentUpon>CategoryUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Categories\Category\CategoryUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Category\CategoryUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Categories\Category\CategoryUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Classes\ClassesUC.ascx.cs">
+      <DependentUpon>ClassesUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Classes\ClassesUC.ascx.designer.cs">
+      <DependentUpon>ClassesUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Classes\Classes\ClassesUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Classes\ClassesUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Classes\ClassesUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Class\ClassUC.ascx.cs">
+      <DependentUpon>ClassUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Class\ClassUC.ascx.designer.cs">
+      <DependentUpon>ClassUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Classes\Class\ClassUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Class\ClassUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Classes\Class\ClassUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\MessageUC.ascx.cs">
+      <DependentUpon>MessageUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\MessageUC.ascx.designer.cs">
+      <DependentUpon>MessageUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductDetails\ProductDetailsUC.ascx.cs">
+      <DependentUpon>ProductDetailsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductDetails\ProductDetailsUC.ascx.designer.cs">
+      <DependentUpon>ProductDetailsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductDetails\ProductDetailsUC.code.cs" />
+    <Compile Include="UserControls\Products\ProductDetails\ProductDetailsUC.events.cs" />
+    <Compile Include="UserControls\Products\ProductDetails\ProductDetailsUC.state.cs" />
+    <Compile Include="UserControls\Products\ProductMatching\ProductMatchingUC.ascx.cs">
+      <DependentUpon>ProductMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductMatching\ProductMatchingUC.ascx.designer.cs">
+      <DependentUpon>ProductMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductMatching\ProductMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductMatching\ProductMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductMatching\ProductMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsMatching\ProductsMatchingUC.ascx.cs">
+      <DependentUpon>ProductsMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsMatching\ProductsMatchingUC.ascx.designer.cs">
+      <DependentUpon>ProductsMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsMatching\ProductsMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsMatching\ProductsMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsMatching\ProductsMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsSelBox\ProductsSelBox.ascx.cs">
+      <DependentUpon>ProductsSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsSelBox\ProductsSelBox.ascx.designer.cs">
+      <DependentUpon>ProductsSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsSelBox\ProductsSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\ProductsSelBox\ProductsSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Products\ProductsUC.ascx.cs">
+      <DependentUpon>ProductsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Products\ProductsUC.ascx.designer.cs">
+      <DependentUpon>ProductsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Products\Products\ProductsUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Products\ProductsUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Products\ProductsUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Product\ProductUC.ascx.cs">
+      <DependentUpon>ProductUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Product\ProductUC.ascx.designer.cs">
+      <DependentUpon>ProductUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Products\Product\ProductUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Product\ProductUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Products\Product\ProductUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRules\QuotationRulesUC.ascx.cs">
+      <DependentUpon>QuotationRulesUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRules\QuotationRulesUC.ascx.designer.cs">
+      <DependentUpon>QuotationRulesUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRules\QuotationRulesUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRules\QuotationRulesUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRules\QuotationRulesUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.ascx.cs">
+      <DependentUpon>QuotationRuleUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.ascx.designer.cs">
+      <DependentUpon>QuotationRuleUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationWarnings\QuotationWarningsUC.ascx.cs">
+      <DependentUpon>QuotationWarningsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationWarnings\QuotationWarningsUC.ascx.designer.cs">
+      <DependentUpon>QuotationWarningsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\QuotationWarnings\QuotationWarningsUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationWarnings\QuotationWarningsUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\QuotationWarnings\QuotationWarningUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\StatePanel\StatePanel.aspx.cs">
+      <DependentUpon>StatePanel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\StatePanel\StatePanel.aspx.designer.cs">
+      <DependentUpon>StatePanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\States\StateMatching\StateMatchingUC.ascx.cs">
+      <DependentUpon>StateMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StateMatching\StateMatchingUC.ascx.designer.cs">
+      <DependentUpon>StateMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\States\StateMatching\StateMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StateMatching\StateMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StateMatching\StateMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StatesMatching\StatesMatchingUC.ascx.cs">
+      <DependentUpon>StatesMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StatesMatching\StatesMatchingUC.ascx.designer.cs">
+      <DependentUpon>StatesMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\States\StatesMatching\StatesMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StatesMatching\StatesMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StatesMatching\StatesMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StatesSelBox\StatesSelBox.ascx.cs">
+      <DependentUpon>StatesSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StatesSelBox\StatesSelBox.ascx.designer.cs">
+      <DependentUpon>StatesSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\States\StatesSelBox\StatesSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\StatesSelBox\StatesSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\States\StatesUC.ascx.cs">
+      <DependentUpon>StatesUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\States\StatesUC.ascx.designer.cs">
+      <DependentUpon>StatesUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\States\States\StatesUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\States\StatesUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\States\StatesUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\State\StateUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\State\StateUC.ascx.cs">
+      <DependentUpon>StateUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\State\StateUC.ascx.designer.cs">
+      <DependentUpon>StateUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\States\State\StateUC.Code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\States\State\StateUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StockMatching\StockMatchingUC.ascx.cs">
+      <DependentUpon>StockMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StockMatching\StockMatchingUC.ascx.designer.cs">
+      <DependentUpon>StockMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StockMatching\StockMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StockMatching\StockMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StockMatching\StockMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksMatching\StocksMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksMatching\StocksMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksMatching\StocksMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksMatching\StocksMatchingUC.ascx.cs">
+      <DependentUpon>StocksMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksMatching\StocksMatchingUC.ascx.designer.cs">
+      <DependentUpon>StocksMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksSelBox\StocksSelBox.ascx.cs">
+      <DependentUpon>StocksSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksSelBox\StocksSelBox.ascx.designer.cs">
+      <DependentUpon>StocksSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksSelBox\StocksSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\StocksSelBox\StocksSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stocks\StocksUC.ascx.cs">
+      <DependentUpon>StocksUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stocks\StocksUC.ascx.designer.cs">
+      <DependentUpon>StocksUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stocks\StocksUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stocks\StocksUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stocks\StocksUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stock\StockUC.ascx.cs">
+      <DependentUpon>StockUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stock\StockUC.ascx.designer.cs">
+      <DependentUpon>StockUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stock\StockUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stock\StockUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Stocks\Stock\StockUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementMatching\SupplementMatchingUC.ascx.cs">
+      <DependentUpon>SupplementMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementMatching\SupplementMatchingUC.ascx.designer.cs">
+      <DependentUpon>SupplementMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementMatching\SupplementMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementMatching\SupplementMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementMatching\SupplementMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsSelBox\SupplementsSelBox.ascx.cs">
+      <DependentUpon>SupplementsSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsSelBox\SupplementsSelBox.ascx.designer.cs">
+      <DependentUpon>SupplementsSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsSelBox\SupplementsSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsSelBox\SupplementsSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsMatching\SupplementsMatchingUC.ascx.cs">
+      <DependentUpon>SupplementsMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsMatching\SupplementsMatchingUC.ascx.designer.cs">
+      <DependentUpon>SupplementsMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsMatching\SupplementsMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsMatching\SupplementsMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\SupplementsMatching\SupplementsMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplements\SupplementsUC.ascx.cs">
+      <DependentUpon>SupplementsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplements\SupplementsUC.ascx.designer.cs">
+      <DependentUpon>SupplementsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplements\SupplementsUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplements\SupplementsUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplements\SupplementsUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplement\SupplementUC.ascx.cs">
+      <DependentUpon>SupplementUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplement\SupplementUC.ascx.designer.cs">
+      <DependentUpon>SupplementUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplement\SupplementUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplement\SupplementUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Supplements\Supplement\SupplementUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\SuppliersSelBox\SuppliersSelBox.Code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\SuppliersSelBox\SuppliersSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\SuppliersSelBox\SuppliersSelBox.ascx.cs">
+      <DependentUpon>SuppliersSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\SuppliersSelBox\SuppliersSelBox.ascx.designer.cs">
+      <DependentUpon>SuppliersSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Suppliers\SuppliersUC.ascx.cs">
+      <DependentUpon>SuppliersUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Suppliers\SuppliersUC.ascx.designer.cs">
+      <DependentUpon>SuppliersUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Suppliers\SuppliersUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Suppliers\SuppliersUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Suppliers\SuppliersUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Supplier\SupplierUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Supplier\SupplierUC.ascx.cs">
+      <DependentUpon>SupplierUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Supplier\SupplierUC.ascx.designer.cs">
+      <DependentUpon>SupplierUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Supplier\SupplierUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Suppliers\Supplier\SupplierUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxesMatching\TaxesMatchingUC.ascx.cs">
+      <DependentUpon>TaxesMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxesMatching\TaxesMatchingUC.ascx.designer.cs">
+      <DependentUpon>TaxesMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxesMatching\TaxesMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxesMatching\TaxesMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxesMatching\TaxesMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Taxes\TaxesUC.ascx.cs">
+      <DependentUpon>TaxesUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Taxes\TaxesUC.ascx.designer.cs">
+      <DependentUpon>TaxesUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Taxes\TaxesUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Taxes\TaxesUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Taxes\TaxesUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxMatching\TaxMatchingUC.ascx.cs">
+      <DependentUpon>TaxMatchingUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxMatching\TaxMatchingUC.ascx.designer.cs">
+      <DependentUpon>TaxMatchingUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxMatching\TaxMatchingUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxMatching\TaxMatchingUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxMatching\TaxMatchingUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxSelBox\TaxSelBox.ascx.cs">
+      <DependentUpon>TaxSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxSelBox\TaxSelBox.ascx.designer.cs">
+      <DependentUpon>TaxSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxSelBox\TaxSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\TaxSelBox\TaxSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Tax\TaxUC.ascx.cs">
+      <DependentUpon>TaxUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Tax\TaxUC.ascx.designer.cs">
+      <DependentUpon>TaxUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Tax\TaxUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Tax\TaxUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Taxes\Tax\TaxUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypesSelBox\WarningTypesSelBox.ascx.cs">
+      <DependentUpon>WarningTypesSelBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypesSelBox\WarningTypesSelBox.ascx.designer.cs">
+      <DependentUpon>WarningTypesSelBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypesSelBox\WarningTypesSelBox.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypesSelBox\WarningTypesSelBox.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypes\WarningTypesUC.ascx.cs">
+      <DependentUpon>WarningTypesUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypes\WarningTypesUC.ascx.designer.cs">
+      <DependentUpon>WarningTypesUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypes\WarningTypesUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypes\WarningTypesUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningTypes\WarningTypesUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningType\WarningTypeUC.ascx.cs">
+      <DependentUpon>WarningTypeUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningType\WarningTypeUC.ascx.designer.cs">
+      <DependentUpon>WarningTypeUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningType\WarningTypeUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningType\WarningTypeUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WarningTypes\WarningType\WarningTypeUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerms\WorryingTermsUC.ascx.cs">
+      <DependentUpon>WorryingTermsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerms\WorryingTermsUC.ascx.designer.cs">
+      <DependentUpon>WorryingTermsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerms\WorryingTermsUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerms\WorryingTermsUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerms\WorryingTermsUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerm\WorryingTermUC.ascx.cs">
+      <DependentUpon>WorryingTermUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerm\WorryingTermUC.ascx.designer.cs">
+      <DependentUpon>WorryingTermUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerm\WorryingTermUC.code.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerm\WorryingTermUC.events.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\WorryingTerms\WorryingTerm\WorryingTermUC.state.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helpers\BrandsMatching\" />
+    <Folder Include="UserControls\Authentication\Registration\" />
+    <Folder Include="UserControls\Quotations\" />
+    <Folder Include="UserControls\Structures\" />
+    <Folder Include="UserControls\Users\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WhereToBuy.core\WhereToBuy.core.csproj">
+      <Project>{bb19c46b-2036-42cb-9b82-f7527facbe38}</Project>
+      <Name>WhereToBuy.core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhereToBuy.entities.specs\WhereToBuy.entities.specs.csproj">
+      <Project>{13293538-38d1-402c-88e9-f28832fcd235}</Project>
+      <Name>WhereToBuy.entities.specs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhereToBuy.entities\WhereToBuy.entities.csproj">
+      <Project>{32183189-2385-46a8-b77c-5fff8d2460d1}</Project>
+      <Name>WhereToBuy.entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhereToBuy.utils\WhereToBuy.utils.csproj">
+      <Project>{2bacc67f-d9e3-4f6c-a516-33bb50fd888f}</Project>
+      <Name>WhereToBuy.utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\lang.fr.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>lang.fr.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\lang.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>lang.pt.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="App_GlobalResources\lang.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>lang.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Resources\Languages\lang.pt.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>lang.pt.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53261</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:58639/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

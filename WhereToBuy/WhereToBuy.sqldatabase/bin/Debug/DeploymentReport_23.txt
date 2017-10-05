@@ -1,0 +1,20 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[CotacoesRegras] (Table)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Marca] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Stock] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_StockSubstituto] (Foreign Key)
+
+** Supporting actions

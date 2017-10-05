@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Produtos] (Table)
+       [dbo].[ProdutosDetalhe] (Table)
+       [dbo].[FK_Produtos_Categoria] (Foreign Key)
+       [dbo].[FK_Produtos_Marca] (Foreign Key)
+       [dbo].[FK_Produtos_Imposto] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Stock] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U1] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U2] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U3] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Produto] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+
+** Supporting actions

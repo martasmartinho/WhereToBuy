@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiveOnlineAccessString" xml:space="preserve">
+    <value>Acesso online ativo</value>
+  </data>
+  <data name="ActiveString" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="ActomaticProductCreationString" xml:space="preserve">
+    <value>Criação de produtos automático</value>
+  </data>
+  <data name="AddressString" xml:space="preserve">
+    <value>Morada</value>
+  </data>
+  <data name="AdministratorString" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="AllString" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="AtiveString" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="txtSupplierProductMatchingString" xml:space="preserve">
+    <value>Mapeamento de produtos automático</value>
+  </data>
+  <data name="BackwardString" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="BooleanInconsistentString" xml:space="preserve">
+    <value>Booleano incongruente com</value>
+  </data>
+  <data name="BoundString" xml:space="preserve">
+    <value>Limite</value>
+  </data>
+  <data name="BrandCodeString" xml:space="preserve">
+    <value>Código de marca</value>
+  </data>
+  <data name="BrandMatchingString" xml:space="preserve">
+    <value>Mapeamento de marca</value>
+  </data>
+  <data name="BrandsMatchingString" xml:space="preserve">
+    <value>Mapeamentos de marcas</value>
+  </data>
+  <data name="BrandsString" xml:space="preserve">
+    <value>Marcas</value>
+  </data>
+  <data name="BrandString" xml:space="preserve">
+    <value>Marca</value>
+  </data>
+  <data name="CancelString" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CannotHaveSpacesString" xml:space="preserve">
+    <value>Este campo não pode conter espaços</value>
+  </data>
+  <data name="CatalogCodeString" xml:space="preserve">
+    <value>Código de catálogo</value>
+  </data>
+  <data name="CatalogsString" xml:space="preserve">
+    <value>Catálogos</value>
+  </data>
+  <data name="CatalogString" xml:space="preserve">
+    <value>Catálogo</value>
+  </data>
+  <data name="CategoriesString" xml:space="preserve">
+    <value>Categorias</value>
+  </data>
+  <data name="CategoryMatchingString" xml:space="preserve">
+    <value>Mapeamento de categoria</value>
+  </data>
+  <data name="CategoryString" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="CellphoneString" xml:space="preserve">
+    <value>Telemóvel</value>
+  </data>
+  <data name="CityString" xml:space="preserve">
+    <value>Localidade</value>
+  </data>
+  <data name="ClassesString" xml:space="preserve">
+    <value>Classes</value>
+  </data>
+  <data name="ClassString" xml:space="preserve">
+    <value>Classe</value>
+  </data>
+  <data name="CleanString" xml:space="preserve">
+    <value>Limpar</value>
+  </data>
+  <data name="CodeString" xml:space="preserve">
+    <value>Codigo</value>
+  </data>
+  <data name="CostPriceString" xml:space="preserve">
+    <value>Preço de custo</value>
+  </data>
+  <data name="CostPrice_DateString" xml:space="preserve">
+    <value>Data de preço de custo</value>
+  </data>
+  <data name="CostPrice_U1DateString" xml:space="preserve">
+    <value>Data de preço de custo U1</value>
+  </data>
+  <data name="CostPrice_U1String" xml:space="preserve">
+    <value>Preço de custo U1</value>
+  </data>
+  <data name="CostPrice_U2DateString" xml:space="preserve">
+    <value>Data de preço de custo U2</value>
+  </data>
+  <data name="CostPrice_U2String" xml:space="preserve">
+    <value>Preço de custo U2</value>
+  </data>
+  <data name="CostPrice_U3DateString" xml:space="preserve">
+    <value>Data de preço de custo U3</value>
+  </data>
+  <data name="CostPrice_U3String" xml:space="preserve">
+    <value>Preço de custo U3</value>
+  </data>
+  <data name="CreationString" xml:space="preserve">
+    <value>Criação</value>
+  </data>
+  <data name="DataResetString" xml:space="preserve">
+    <value>Data reset</value>
+  </data>
+  <data name="DeleteSqlErrorsString" xml:space="preserve">
+    <value>Não houve qualquer erro de sql, mas não foi possível eliminar registo</value>
+  </data>
+  <data name="DeleteString" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="DescriptionString" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DiscontinuedString" xml:space="preserve">
+    <value>Descontinuado</value>
+  </data>
+  <data name="DividersErrorString" xml:space="preserve">
+    <value>Não é possivel obter os divisores de um numero inferior a 1</value>
+  </data>
+  <data name="EditionModeString" xml:space="preserve">
+    <value>Modo de edição</value>
+  </data>
+  <data name="EditString" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EmailString" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ExistActiveString" xml:space="preserve">
+    <value>Existe, mas não está ativo</value>
+  </data>
+  <data name="ExistInactiveString" xml:space="preserve">
+    <value>Existe não não está inativo</value>
+  </data>
+  <data name="ExistingInsertCodeString" xml:space="preserve">
+    <value>O código que está a tentar inserir já existe</value>
+  </data>
+  <data name="ExpireHoursString" xml:space="preserve">
+    <value>Horas de validade</value>
+  </data>
+  <data name="ExternalCodeString" xml:space="preserve">
+    <value>Código externo</value>
+  </data>
+  <data name="ExternalInformationString" xml:space="preserve">
+    <value>Informação externa</value>
+  </data>
+  <data name="ExternalSystemString" xml:space="preserve">
+    <value>Sistema externo</value>
+  </data>
+  <data name="ForwardString" xml:space="preserve">
+    <value>Próximo</value>
+  </data>
+  <data name="GeneralDataString" xml:space="preserve">
+    <value>Dados gerais</value>
+  </data>
+  <data name="GroupString" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="HigherDateString" xml:space="preserve">
+    <value>Data superior ao permitido</value>
+  </data>
+  <data name="HomeString" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="IconString" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="IdentificationNumberString" xml:space="preserve">
+    <value>Contribuinte</value>
+  </data>
+  <data name="InactiveAutomaticUpdateSuggestionString" xml:space="preserve">
+    <value>Atualização automática da suggestão</value>
+  </data>
+  <data name="InactiveDescriptionSuggestionString" xml:space="preserve">
+    <value>Sugestão para a descrição inativa</value>
+  </data>
+  <data name="InactiveFeatureSuggestionString" xml:space="preserve">
+    <value>Sugestão para as caracteristicas inativa</value>
+  </data>
+  <data name="InactiveImageSugestionString" xml:space="preserve">
+    <value>Sugestão para a imagem inativa</value>
+  </data>
+  <data name="InactiveLinkSuggestionString" xml:space="preserve">
+    <value>Sugestão para o link inativa</value>
+  </data>
+  <data name="InactiveString" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="InconsistencyString" xml:space="preserve">
+    <value>Incongruência</value>
+  </data>
+  <data name="IndexString" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="InfoProductDetailAvailableString" xml:space="preserve">
+    <value>Detalhes de informação de produto disponíveis</value>
+  </data>
+  <data name="InicialScoreFeaturesString" xml:space="preserve">
+    <value>Pontuação inicial das caracteristicas</value>
+  </data>
+  <data name="InicialScoreImageString" xml:space="preserve">
+    <value>Pontuação inicial da imagem</value>
+  </data>
+  <data name="InicialScoreLinkString" xml:space="preserve">
+    <value>pontuação inicial do link</value>
+  </data>
+  <data name="InitialScoreDescriptionString" xml:space="preserve">
+    <value>Pontuação inicial da descrição</value>
+  </data>
+  <data name="InsertSqlErrorsString" xml:space="preserve">
+    <value>Não houve qualquer erro de sql, mas não foi possível inserir registo</value>
+  </data>
+  <data name="InsertString" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="InternalInformationString" xml:space="preserve">
+    <value>Informação interna</value>
+  </data>
+  <data name="LanguageString" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="LargerTextString" xml:space="preserve">
+    <value>Tamanho de texto superior ao permitido</value>
+  </data>
+  <data name="LowerDateString" xml:space="preserve">
+    <value>Data inferior ao permitido</value>
+  </data>
+  <data name="MatchingsString" xml:space="preserve">
+    <value>Mapeamentos</value>
+  </data>
+  <data name="MatchingString" xml:space="preserve">
+    <value>Mapeamento</value>
+  </data>
+  <data name="MaxPriceAllowedString" xml:space="preserve">
+    <value>Preço máximo permitido</value>
+  </data>
+  <data name="MaxPriceAmplitudeString" xml:space="preserve">
+    <value>Amplitude máxima de preço</value>
+  </data>
+  <data name="MinPriceAllowedString" xml:space="preserve">
+    <value>Preço mínimo permitido</value>
+  </data>
+  <data name="ModeString" xml:space="preserve">
+    <value>Modo</value>
+  </data>
+  <data name="MustBeFilledString" xml:space="preserve">
+    <value>Preenchimento obrigatório</value>
+  </data>
+  <data name="MustHaveNumericCharString" xml:space="preserve">
+    <value>Este campo tem que ter pelo menos um caracter numerico</value>
+  </data>
+  <data name="MustHaveSpecialCharString" xml:space="preserve">
+    <value>este campo tem que ter pelo menos um caracter especial</value>
+  </data>
+  <data name="NameString" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="NewString" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="NotesString" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="NotExistingDeleteCodeString" xml:space="preserve">
+    <value>O código que está a tentar eliminar não existe</value>
+  </data>
+  <data name="NotExistingUpdateCodeString" xml:space="preserve">
+    <value>O código que está a tentar alterar não existe</value>
+  </data>
+  <data name="NotExistString" xml:space="preserve">
+    <value>Não existe</value>
+  </data>
+  <data name="NumericCharString" xml:space="preserve">
+    <value>Existencia de caracteres numericos</value>
+  </data>
+  <data name="OkString" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="OthersString" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="PasswordString" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PhoneString" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="ProductAvailableTrustString" xml:space="preserve">
+    <value>Confiança na disponibilidade do produto</value>
+  </data>
+  <data name="ProductPriceTrustString" xml:space="preserve">
+    <value>Confiança no preço do produto</value>
+  </data>
+  <data name="ProductsString" xml:space="preserve">
+    <value>Produtos</value>
+  </data>
+  <data name="QuotationRuleString" xml:space="preserve">
+    <value>Regras de cotações</value>
+  </data>
+  <data name="QuotationsString" xml:space="preserve">
+    <value>Cotações</value>
+  </data>
+  <data name="RangeMinValueString" xml:space="preserve">
+    <value>Valor de margem mínimo</value>
+  </data>
+  <data name="RangeString" xml:space="preserve">
+    <value>Margem</value>
+  </data>
+  <data name="RecordNotFoundString" xml:space="preserve">
+    <value>Não foi encontrado nunhum registo para o filtro selecionado</value>
+  </data>
+  <data name="RulesString" xml:space="preserve">
+    <value>Regras</value>
+  </data>
+  <data name="SalesmanString" xml:space="preserve">
+    <value>Vendedor</value>
+  </data>
+  <data name="SearchString" xml:space="preserve">
+    <value>Pesquisar</value>
+  </data>
+  <data name="SelectString" xml:space="preserve">
+    <value>Selecionar</value>
+  </data>
+  <data name="SeverityString" xml:space="preserve">
+    <value>Gravidade</value>
+  </data>
+  <data name="SmallerTextString" xml:space="preserve">
+    <value>Tamalho de texto inferior ao permitido</value>
+  </data>
+  <data name="SmsString" xml:space="preserve">
+    <value>Sms</value>
+  </data>
+  <data name="SpaceExistenceString" xml:space="preserve">
+    <value>Existencia de espaços</value>
+  </data>
+  <data name="SpecialCharString" xml:space="preserve">
+    <value>Existencia de caracteres especiais</value>
+  </data>
+  <data name="StateMatchingString" xml:space="preserve">
+    <value>Mapeamento de Estado</value>
+  </data>
+  <data name="StatesMatchingString" xml:space="preserve">
+    <value>Mapeamento de estados</value>
+  </data>
+  <data name="StatesString" xml:space="preserve">
+    <value>Estados</value>
+  </data>
+  <data name="StateString" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="StockCodeString" xml:space="preserve">
+    <value>Código de stock</value>
+  </data>
+  <data name="StockCode_DateString" xml:space="preserve">
+    <value>Data de código de stock</value>
+  </data>
+  <data name="StockCode_U1DateString" xml:space="preserve">
+    <value>Data de código de stock U1</value>
+  </data>
+  <data name="StockCode_U1String" xml:space="preserve">
+    <value>Código de stock U1</value>
+  </data>
+  <data name="StockCode_U2DateString" xml:space="preserve">
+    <value>Data de código de stock U2</value>
+  </data>
+  <data name="StockCode_U2String" xml:space="preserve">
+    <value>Código de stock U2</value>
+  </data>
+  <data name="StockCode_U3DateString" xml:space="preserve">
+    <value>Data de código de stock U3</value>
+  </data>
+  <data name="StockCode_U3String" xml:space="preserve">
+    <value>Código de stock U3</value>
+  </data>
+  <data name="StockMatchingString" xml:space="preserve">
+    <value>Mapeamento de stock</value>
+  </data>
+  <data name="StockMatchingString1" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="StocksString" xml:space="preserve">
+    <value>Stocks</value>
+  </data>
+  <data name="StructuresString" xml:space="preserve">
+    <value>Estruturas</value>
+  </data>
+  <data name="SubstituteStockCodeString" xml:space="preserve">
+    <value>Codigo de stock substituto</value>
+  </data>
+  <data name="SuggestionExpireHoursString" xml:space="preserve">
+    <value>Sugestão de horas de validade</value>
+  </data>
+  <data name="SupplementMatchingString" xml:space="preserve">
+    <value>Mapeamento de complemento</value>
+  </data>
+  <data name="SupplementsString" xml:space="preserve">
+    <value>Complementos</value>
+  </data>
+  <data name="SupplementString" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="SupplierBrandTrustString" xml:space="preserve">
+    <value>Confianca fornecedor marca</value>
+  </data>
+  <data name="SupplierCodeString" xml:space="preserve">
+    <value>Código de fornecedor</value>
+  </data>
+  <data name="SuppliersString" xml:space="preserve">
+    <value>Fornecedores</value>
+  </data>
+  <data name="SupplierString" xml:space="preserve">
+    <value>Fornecedor</value>
+  </data>
+  <data name="SystemBrandString" xml:space="preserve">
+    <value>WhereToBuy</value>
+  </data>
+  <data name="TablesString" xml:space="preserve">
+    <value>Tabelas</value>
+  </data>
+  <data name="TaxDesignationString" xml:space="preserve">
+    <value>Designação fiscal</value>
+  </data>
+  <data name="TaxesString" xml:space="preserve">
+    <value>Impostos</value>
+  </data>
+  <data name="TaxMatchingString" xml:space="preserve">
+    <value>Mapeamento de imposto</value>
+  </data>
+  <data name="TaxString" xml:space="preserve">
+    <value>Imposto</value>
+  </data>
+  <data name="TaxValueString" xml:space="preserve">
+    <value>Valor do imposto</value>
+  </data>
+  <data name="TermString" xml:space="preserve">
+    <value>Termo</value>
+  </data>
+  <data name="TextToAddString" xml:space="preserve">
+    <value>Texto a adicionar</value>
+  </data>
+  <data name="TextToRemoveString" xml:space="preserve">
+    <value>Texto a remover</value>
+  </data>
+  <data name="TrustString" xml:space="preserve">
+    <value>Confiança</value>
+  </data>
+  <data name="TypeString" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="UnityWeightAverageString" xml:space="preserve">
+    <value>Peso médio por unidade</value>
+  </data>
+  <data name="UpdateSqlErrorsString" xml:space="preserve">
+    <value>Não houve qualquer erro de sql, mas não foi possível alterar registo</value>
+  </data>
+  <data name="UpdateString" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="UsernameString" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="UserString" xml:space="preserve">
+    <value>Utilizador</value>
+  </data>
+  <data name="VersionString" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="WarningsString" xml:space="preserve">
+    <value>Avisos</value>
+  </data>
+  <data name="WarningString" xml:space="preserve">
+    <value>Aviso</value>
+  </data>
+  <data name="WarningTypeString" xml:space="preserve">
+    <value>Aviso tipo</value>
+  </data>
+  <data name="WithoutMatchingString" xml:space="preserve">
+    <value>Sem mapeamento</value>
+  </data>
+  <data name="WorryingTermString" xml:space="preserve">
+    <value>Termo preocupante</value>
+  </data>
+  <data name="ZipCodeString" xml:space="preserve">
+    <value>Código postal</value>
+  </data>
+  <data name="TaxesMatchingString" xml:space="preserve">
+    <value>Mapeamentos de impostos</value>
+  </data>
+  <data name="TaxRateString" xml:space="preserve">
+    <value>Taxa</value>
+  </data>
+  <data name="ConfigurationsString" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="WorryingTermsString" xml:space="preserve">
+    <value>Termos preocupantes</value>
+  </data>
+  <data name="WarningTypesString" xml:space="preserve">
+    <value>Avisos tipo</value>
+  </data>
+  <data name="CategoriesMatchingString" xml:space="preserve">
+    <value>Mapeamento de categorias</value>
+  </data>
+  <data name="StocksMatchingString" xml:space="preserve">
+    <value>Mapeamento de stocks</value>
+  </data>
+  <data name="SupplementsMatchingString" xml:space="preserve">
+    <value>Mapeamento de complementos</value>
+  </data>
+  <data name="StockString" xml:space="preserve">
+    <value>Stock</value>
+  </data>
+  <data name="AvailabilityLevelString" xml:space="preserve">
+    <value>Nível de disponibilidade</value>
+  </data>
+  <data name="StockCodeExpirationP50String" xml:space="preserve">
+    <value>Código de stock percentil 50</value>
+  </data>
+  <data name="StockCodeExpirationP60String" xml:space="preserve">
+    <value>Código de stock percentil 60</value>
+  </data>
+  <data name="StockCodeExpirationP70String" xml:space="preserve">
+    <value>Código de stock percentil 70</value>
+  </data>
+  <data name="StockCodeExpirationP80String" xml:space="preserve">
+    <value>Código de stock percentil 80</value>
+  </data>
+  <data name="StockCodeExpirationP90String" xml:space="preserve">
+    <value>Código de stock percentil 90</value>
+  </data>
+  <data name="SalesmanDataString" xml:space="preserve">
+    <value>Dados do comercial</value>
+  </data>
+  <data name="OnlineActiveAccessString" xml:space="preserve">
+    <value>Acesso exterior ativo</value>
+  </data>
+  <data name="MobileString" xml:space="preserve">
+    <value>Telemóvel</value>
+  </data>
+  <data name="SupplierBigText10String" xml:space="preserve">
+    <value>Pontuação inicial para qualidade das caracteristicas do produto</value>
+  </data>
+  <data name="SupplierBigText11String" xml:space="preserve">
+    <value>Pontuação inicial para qualidade da imagem do produto</value>
+  </data>
+  <data name="SupplierBigText12String" xml:space="preserve">
+    <value>Pontuação inicial para qualidade do link do produto</value>
+  </data>
+  <data name="SupplierBigText13String" xml:space="preserve">
+    <value>Nível de confiança no preço dos produtos</value>
+  </data>
+  <data name="SupplierBigText14String" xml:space="preserve">
+    <value>Nível de confiança na disponibilidade dos produtos</value>
+  </data>
+  <data name="SupplierBigText1String" xml:space="preserve">
+    <value>Horas de validade, sugestão para novas regras de cotações</value>
+  </data>
+  <data name="SupplierBigText2String" xml:space="preserve">
+    <value>Permite execução automática de mapeamento de produtos</value>
+  </data>
+  <data name="SupplierBigText3String" xml:space="preserve">
+    <value>Permite criação automática de novos produtos</value>
+  </data>
+  <data name="SupplierBigText4String" xml:space="preserve">
+    <value>Disponibiliza informação de produtos publicamente</value>
+  </data>
+  <data name="SupplierBigText5String" xml:space="preserve">
+    <value>Permite importação de descrição de produtos</value>
+  </data>
+  <data name="SupplierBigText6String" xml:space="preserve">
+    <value>Permite importação de caracteristicas de produtos</value>
+  </data>
+  <data name="SupplierBigText7String" xml:space="preserve">
+    <value>Permite importação de link de produto</value>
+  </data>
+  <data name="SupplierBigText8String" xml:space="preserve">
+    <value>Permite importação de imagem de produto</value>
+  </data>
+  <data name="SupplierBigText9String" xml:space="preserve">
+    <value>Pontuação inicial para qualidade da descrição de produtos</value>
+  </data>
+  <data name="SupplierBigText15String" xml:space="preserve">
+    <value>Permite atualização automática da informação de produtos</value>
+  </data>
+  <data name="QuotationRulesString" xml:space="preserve">
+    <value>Regras de cotação</value>
+  </data>
+  <data name="CloseResetString" xml:space="preserve">
+    <value>Reset próximo</value>
+  </data>
+  <data name="QuotationString" xml:space="preserve">
+    <value>Cotação</value>
+  </data>
+  <data name="WithCustomizationString" xml:space="preserve">
+    <value>Com personalização</value>
+  </data>
+  <data name="RuleString" xml:space="preserve">
+    <value>Regra</value>
+  </data>
+  <data name="ExpirationString" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="IdentificationString" xml:space="preserve">
+    <value>Identificação</value>
+  </data>
+  <data name="SubstituteStockString" xml:space="preserve">
+    <value>Stock substituto</value>
+  </data>
+  <data name="FourDayString" xml:space="preserve">
+    <value>Quatro dias</value>
+  </data>
+  <data name="OneDayString" xml:space="preserve">
+    <value>Um dia</value>
+  </data>
+  <data name="OneMonthString" xml:space="preserve">
+    <value>Um mês</value>
+  </data>
+  <data name="OneWeekString" xml:space="preserve">
+    <value>Uma semana</value>
+  </data>
+  <data name="SixDayString" xml:space="preserve">
+    <value>Seis dias</value>
+  </data>
+  <data name="ThreeDayString" xml:space="preserve">
+    <value>Três dias</value>
+  </data>
+  <data name="ThreeWeekString" xml:space="preserve">
+    <value>Três semanas</value>
+  </data>
+  <data name="TwoDayString" xml:space="preserve">
+    <value>Dois dias</value>
+  </data>
+  <data name="TwoMonthString" xml:space="preserve">
+    <value>Dois meses</value>
+  </data>
+  <data name="TwoWeekString" xml:space="preserve">
+    <value>Duas semanas</value>
+  </data>
+  <data name="AutomaticString" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="FiveDayString" xml:space="preserve">
+    <value>Cinco dias</value>
+  </data>
+  <data name="CollapseString" xml:space="preserve">
+    <value>Recolher</value>
+  </data>
+  <data name="ExtendString" xml:space="preserve">
+    <value>Estender</value>
+  </data>
+  <data name="OpenString" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="LoadString" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="QuotationWarningsString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DateString" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="PreventionFakeStockString" xml:space="preserve">
+    <value>Prevenção de falso stock</value>
+  </data>
+  <data name="PreventionPricesOutString" xml:space="preserve">
+    <value>Prevenção de preços desfasados</value>
+  </data>
+  <data name="ProductsMatchingString" xml:space="preserve">
+    <value>Produtos Matching</value>
+  </data>
+  <data name="WithCustomString" xml:space="preserve">
+    <value>Com personalização</value>
+  </data>
+  <data name="MarginString" xml:space="preserve">
+    <value>Margem</value>
+  </data>
+  <data name="ProductString" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="Ran" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RelationCategoriesString" xml:space="preserve">
+    <value>Categorias relacionadas</value>
+  </data>
+  <data name="ProductMatchingString" xml:space="preserve">
+    <value>Mapeamento de Produto</value>
+  </data>
+  <data name="DefaultString" xml:space="preserve">
+    <value>Por defeito</value>
+  </data>
+  <data name="NeedPreventionFakeStockString" xml:space="preserve">
+    <value>Dispensa prevenção de falso stock</value>
+  </data>
+  <data name="NeedPreventionPricesOutString" xml:space="preserve">
+    <value>Dispensa prevenção de preços desfasados</value>
+  </data>
+  <data name="CurrentsString" xml:space="preserve">
+    <value>Atuais</value>
+  </data>
+  <data name="CurrentString" xml:space="preserve">
+    <value>Atual</value>
+  </data>
+  <data name="IPCString" xml:space="preserve">
+    <value>IPC</value>
+  </data>
+  <data name="ManualUpdateString" xml:space="preserve">
+    <value>Atualização manual</value>
+  </data>
+  <data name="PartnumberString" xml:space="preserve">
+    <value>Partnumber</value>
+  </data>
+  <data name="ICDString" xml:space="preserve">
+    <value>ICD</value>
+  </data>
+  <data name="ICPString" xml:space="preserve">
+    <value>ICP</value>
+  </data>
+  <data name="PriceString" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="NoDataString" xml:space="preserve">
+    <value>Sem dados</value>
+  </data>
+  <data name="ContentConcernIndexString" xml:space="preserve">
+    <value>Índice de preocupação no conteúdo</value>
+  </data>
+  <data name="DescriptionScoreString" xml:space="preserve">
+    <value>Descrição pontuação</value>
+  </data>
+  <data name="FeaturesString" xml:space="preserve">
+    <value>Caracteristicas</value>
+  </data>
+  <data name="ImageScoreString" xml:space="preserve">
+    <value>Imagem pontuação</value>
+  </data>
+  <data name="ImageString" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="LinkScoreString" xml:space="preserve">
+    <value>Link pontuação</value>
+  </data>
+  <data name="LinkString" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="ProductCodeString" xml:space="preserve">
+    <value>Codigo de produto</value>
+  </data>
+  <data name="ScoreString" xml:space="preserve">
+    <value>Pontuação</value>
+  </data>
+  <data name="ActiveExternalInformationString" xml:space="preserve">
+    <value>Informação externa ativa</value>
+  </data>
+  <data name="CommercialDataString" xml:space="preserve">
+    <value>Dados comerciais</value>
+  </data>
+  <data name="ContentString" xml:space="preserve">
+    <value>Conteúdo</value>
+  </data>
+  <data name="CurrentQuotesString" xml:space="preserve">
+    <value>Cotações atuais</value>
+  </data>
+  <data name="HistoricalQuotesString" xml:space="preserve">
+    <value>Cotações histórico</value>
+  </data>
+  <data name="StatisticsString" xml:space="preserve">
+    <value>Estatisticas</value>
+  </data>
+  <data name="HoursString" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="NoString" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="YesString" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="MoreInfoString" xml:space="preserve">
+    <value>Mais Informação</value>
+  </data>
+  <data name="TrustIndexString" xml:space="preserve">
+    <value>Índice de confianca</value>
+  </data>
+  <data name="CEString" xml:space="preserve">
+    <value>Confiança estabilidade</value>
+  </data>
+  <data name="CFString" xml:space="preserve">
+    <value>Confiança fornecedor</value>
+  </data>
+  <data name="CTString" xml:space="preserve">
+    <value>Confiança tendência</value>
+  </data>
+  <data name="CurrentQuotationsString" xml:space="preserve">
+    <value>Cotações atuais</value>
+  </data>
+  <data name="EEDString" xml:space="preserve">
+    <value>EED</value>
+  </data>
+  <data name="EEDTextString" xml:space="preserve">
+    <value>Estimativa de estabilidade disponibilidade</value>
+  </data>
+  <data name="EEPString" xml:space="preserve">
+    <value>EEP</value>
+  </data>
+  <data name="EEPTextString" xml:space="preserve">
+    <value>Estimativa de estabelidade preço</value>
+  </data>
+  <data name="HistoryQuotationString" xml:space="preserve">
+    <value>Cotações histórico</value>
+  </data>
+  <data name="ICDTextString" xml:space="preserve">
+    <value>Índice de confiança disponibilidade</value>
+  </data>
+  <data name="ICPTextString" xml:space="preserve">
+    <value>Indice de confiança preço</value>
+  </data>
+  <data name="CETextString" xml:space="preserve">
+    <value>Coeficiente de estabilidade</value>
+  </data>
+  <data name="CFTextString" xml:space="preserve">
+    <value>Coeficiente de f</value>
+  </data>
+  <data name="CTTextString" xml:space="preserve">
+    <value>Coeficiente de t</value>
+  </data>
+  <data name="CurrentQuotationString" xml:space="preserve">
+    <value>Cotaçoes atuais</value>
+  </data>
+</root>

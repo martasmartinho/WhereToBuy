@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>WhereToBuy.sqldatabase</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{fd8be761-dee2-4643-93b8-b1ab70f180c2}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>WhereToBuy.sqldatabase</RootNamespace>
+    <AssemblyName>WhereToBuy.sqldatabase</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Functions" />
+    <Folder Include="Tables" />
+    <Folder Include="Tables\Quotations" />
+    <Folder Include="Tables\Catalogs" />
+    <Folder Include="Vews" />
+    <Folder Include="Indexes" />
+    <Folder Include="Scripts" />
+    <Folder Include="StoredProcedures" />
+    <Folder Include="StoredProcedures\Processsing" />
+    <Folder Include="StoredProcedures\Processsing\Step1" />
+    <Folder Include="StoredProcedures\Processsing\Step2" />
+    <Folder Include="StoredProcedures\Processsing\Step3" />
+    <Folder Include="StoredProcedures\Processsing\Step4" />
+    <Folder Include="StoredProcedures\Quotations" />
+    <Folder Include="StoredProcedures\Catalogs" />
+    <Folder Include="StoredProcedures\Catalogs\Groups" />
+    <Folder Include="StoredProcedures\Quotations\Brand" />
+    <Folder Include="StoredProcedures\Quotations\Category" />
+    <Folder Include="StoredProcedures\Quotations\Language" />
+    <Folder Include="StoredProcedures\Quotations\State" />
+    <Folder Include="StoredProcedures\Quotations\Supplement" />
+    <Folder Include="StoredProcedures\Quotations\Supplier" />
+    <Folder Include="StoredProcedures\Quotations\Tax" />
+    <Folder Include="StoredProcedures\Quotations\Users" />
+    <Folder Include="StoredProcedures\Quotations\WarningType" />
+    <Folder Include="StoredProcedures\Quotations\WorryingTerm" />
+    <Folder Include="StoredProcedures\Catalogs\Catalogs" />
+    <Folder Include="StoredProcedures\Catalogs\Classes" />
+    <Folder Include="StoredProcedures\Catalogs\ClassCategory" />
+    <Folder Include="StoredProcedures\Quotations\BrandMatching" />
+    <Folder Include="StoredProcedures\Quotations\StateMatching" />
+    <Folder Include="StoredProcedures\Quotations\ProductMatching" />
+    <Folder Include="StoredProcedures\Quotations\Quotation" />
+    <Folder Include="StoredProcedures\Quotations\ProductDetail" />
+    <Folder Include="StoredProcedures\Quotations\SupplementMatching" />
+    <Folder Include="StoredProcedures\Quotations\Product" />
+    <Folder Include="StoredProcedures\Quotations\QuotationRule" />
+    <Folder Include="StoredProcedures\Quotations\QuotationWarning" />
+    <Folder Include="StoredProcedures\Quotations\TaxMatching" />
+    <Folder Include="StoredProcedures\Quotations\CategoryMatching" />
+    <Folder Include="StoredProcedures\Quotations\SupplierBrand" />
+    <Folder Include="StoredProcedures\Catalogs\Subgroup" />
+    <Folder Include="StoredProcedures\Catalogs\SubgroupClass" />
+    <Folder Include="StoredProcedures\Quotations\Stock" />
+    <Folder Include="StoredProcedures\Quotations\StockMatching" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Catalogs\Catalogos.sql" />
+    <Build Include="Tables\Quotations\AvisosTipo.sql" />
+    <Build Include="Tables\Quotations\Categorias.sql" />
+    <Build Include="Tables\Quotations\CategoriasMatching.sql" />
+    <Build Include="Tables\Catalogs\Classes.sql" />
+    <Build Include="Tables\Catalogs\ClassesCategorias.sql" />
+    <Build Include="Functions\CleanBadCharsFunction.sql" />
+    <Build Include="Tables\Quotations\Complementos.sql" />
+    <Build Include="Tables\Quotations\ComplementosMatching.sql" />
+    <Build Include="Tables\Quotations\Cotacoes.sql" />
+    <Build Include="Vews\CotacoesAtivasView.sql" />
+    <Build Include="Vews\CotacoesAtuaisAmplitudeExcedidaView.sql" />
+    <Build Include="Vews\CotacoesAtuaisAmplitudeIrregularView.sql" />
+    <Build Include="Vews\CotacoesAtuaisPrecosForaIntervaloView.sql" />
+    <Build Include="Vews\CotacoesAtuaisRecalcularView.sql" />
+    <Build Include="Vews\CotacoesAtuaisView.sql" />
+    <Build Include="Vews\CotacoesAtuaisFalsoStockView.sql" />
+    <Build Include="Vews\CotacoesIncompletasFinalizacaoView.sql" />
+    <Build Include="Vews\CotacoesIncompletasMapeamentoProdutoView.sql" />
+    <Build Include="Vews\CotacoesIncompletasNormalizacaoView.sql" />
+    <Build Include="Vews\CotacoesIncompletasView.sql" />
+    <Build Include="Vews\CotacoesMatrizPreenchimentoMapToView.sql" />
+    <Build Include="Vews\CotacoesNaoIntegradasView.sql" />
+    <Build Include="Vews\CotacoesMatrizCriacaoProdutosView.sql" />
+    <Build Include="Vews\CotacoesVencedorasView.sql" />
+    <Build Include="Tables\Quotations\CotacoesAvisos.sql" />
+    <Build Include="Tables\Quotations\CotacoesRegras.sql" />
+    <Build Include="Tables\Quotations\Estados.sql" />
+    <Build Include="Tables\Quotations\EstadosMatching.sql" />
+    <Build Include="Tables\Quotations\Fornecedores.sql" />
+    <Build Include="Functions\GetCodigoExternoNormalizadoFunction.sql" />
+    <Build Include="Functions\GetCotacaoCaracteristicasFunction.sql" />
+    <Build Include="Functions\GetCotacaoDescricaoFunction.sql" />
+    <Build Include="Functions\GetCotacaoImagemFunction.sql" />
+    <Build Include="Functions\GetCotacaoLinkFunction.sql" />
+    <Build Include="Functions\GetCotacaoPartnumberFunction.sql" />
+    <Build Include="Functions\GetCotacaoPartnumberSimplificadoFunction.sql" />
+    <Build Include="Functions\GetCotacaoPrecoFunction.sql" />
+    <Build Include="Functions\GetCotacaoStockSubstitutoFunction.sql" />
+    <Build Include="Functions\GetCotacaoValidadeFunction.sql" />
+    <Build Include="Functions\GetIndicePreocupacaoFunction.sql" />
+    <Build Include="Functions\GetProdutoCodigoFunction.sql" />
+    <Build Include="Functions\GetProdutoDetalheIndicePreocupacaoFunction.sql" />
+    <Build Include="Functions\GetProdutoMedidasDisponibilidadeFunction.sql" />
+    <Build Include="Functions\GetProdutoMedidasPrecoFunction.sql" />
+    <Build Include="Functions\GetTextoOnlyAllowedCharsFunction.sql" />
+    <Build Include="Functions\GetValidadePercentilFunction.sql" />
+    <Build Include="Tables\Quotations\Impostos.sql" />
+    <Build Include="Tables\Quotations\ImpostosMatching.sql" />
+    <Build Include="Tables\Quotations\Marcas.sql" />
+    <Build Include="Tables\Quotations\MarcasMatching.sql" />
+    <Build Include="Tables\Catalogs\Grupos.sql" />
+    <Build Include="Tables\Quotations\Produtos.sql" />
+    <Build Include="Tables\Quotations\ProdutosDetalhe.sql" />
+    <Build Include="Tables\Quotations\ProdutosMatching.sql" />
+    <Build Include="Vews\PartnumbersAmbiguosView.sql" />
+    <Build Include="Vews\ProdutosAtivosView.sql" />
+    <Build Include="Vews\ProdutosAtuaisView.sql" />
+    <Build Include="Vews\ProdutosCodigosInexistentesView.sql" />
+    <Build Include="StoredProcedures\Processsing\CotacaoInsertSP.sql" />
+    <Build Include="Functions\RemoveAccentuationFunction.sql" />
+    <Build Include="Functions\SplitStringFunction.sql" />
+    <Build Include="Tables\Catalogs\Subgrupos.sql" />
+    <Build Include="Tables\Catalogs\SubgruposClasses.sql" />
+    <Build Include="Tables\Quotations\TermosPreocupantes.sql" />
+    <Build Include="Tables\Quotations\Stocks.sql" />
+    <Build Include="Tables\Quotations\StocksMatching.sql" />
+    <Build Include="Functions\StripHtmlTagsFunction.sql" />
+    <Build Include="Tables\Quotations\Idiomas.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2a1_Preparation_CleanAllExistingWarnings.sql" />
+    <Build Include="StoredProcedures\Processsing\Step1\Step1a1_DeleteIncompleteAndNotIntegratedExistingQuotations.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2a2_Preparation_DeleteExpiredQuotations.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1a_Mappings_Addons_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1a_Mappings_Brands_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1a_Mappings_Categories_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1a_Mappings_Statuses_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1a_Mappings_Stocks_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1a_Mappings_Taxes_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1b_Mappings_Addons_Map.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1b_Mappings_Brands_Map.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1b_Mappings_Categories_Map.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1b_Mappings_Statuses_Map.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1b_Mappings_Stocks_Map.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1b_Mappings_Taxes_Map.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1c_Mappings_Addons_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1c_Mappings_Brands_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1c_Mappings_Categories_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1c_Mappings_Statuses_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1c_Mappings_Stocks_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1c_Mappings_Taxes_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2b1z_QuotationRules_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2c1_MappingProducts_FeedNewRules.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2c2_MappingProducts_InsertNewProducts.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2c3_MappingProducts_FillMapTo.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2c4_MappingProducts_Map.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2c5_MappingProducts_Notifications1.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2c6_MappingProducts_Notifications2.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2c7_MappingProducts_Notifications3.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2d1_Normalization_OtherFieldsFulfillment.sql" />
+    <Build Include="StoredProcedures\Processsing\Step2\Step2d2_Normalization_SetComplete.sql" />
+    <Build Include="StoredProcedures\Processsing\Step3\Step3a1_Preparation_ProductMatchingsReset.sql" />
+    <Build Include="StoredProcedures\Processsing\Step3\Step3a2_Preparation_QuotationsRulesReset.sql" />
+    <Build Include="StoredProcedures\Processsing\Step3\Step3b1_Promotion_PromoteQuotations.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4a1_Preparation_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4a2_Preparation_OtherFieldsRefresh.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4a3_Preparation_SetInactiveExpiredQuotations.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4a4_Finishing_ProductDescontinuation.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4a5_Finishing_ProductResurrection.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4b1_Cautions_FakeStock_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4b2_Cautions_FakeStock_Execution.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4b3_Cautions_OutOfInterval_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4b4_Cautions_OutOfInterval_Execution.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4b5_Cautions_IrregularAmplitude_Notifications.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4b6_Cautions_IrregularAmplitude_Execution.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4c1_Finishing_ProductsUpdate.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4c2_Finishing_ProductsDetailUpdate.sql" />
+    <Build Include="StoredProcedures\Processsing\Step4\Step4c3_Finishing_ProductsDetailInsert.sql" />
+    <Build Include="Tables\Quotations\FornecedoresMarcas.sql" />
+    <Build Include="Tables\Quotations\Utilizadores.sql" />
+    <Build Include="StoredProcedures\Quotations\Brand\BrandCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Brand\BrandDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Brand\BrandInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Brand\BrandSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Brand\BrandUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Category\CategoryCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Category\CategoryDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Category\CategoryInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Category\CategorySelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Category\CategoryUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Language\LanguageCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Language\LanguageDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Language\LanguageInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Language\LanguageSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Language\LanguageUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\State\StateCount.sql" />
+    <Build Include="StoredProcedures\Quotations\State\StateDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\State\StateInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\State\StateSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\State\StateUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplement\SupplementCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplement\SupplementDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplement\SupplementInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplement\SupplementSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplement\SupplementUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplier\SupplierCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplier\SupplierDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplier\SupplierInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplier\SupplierSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Supplier\SupplierUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Tax\TaxCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Tax\TaxDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Tax\TaxInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Tax\TaxSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Tax\TaxUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Users\UserCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Users\UserDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Users\UserInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Users\UserSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Users\UserUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\WarningType\WarningTypeCount.sql" />
+    <Build Include="StoredProcedures\Quotations\WarningType\WarningTypeDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\WarningType\WarningTypeInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\WarningType\WarningTypeSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\WarningType\WarningTypeUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\WorryingTerm\WorryingTermCount.sql" />
+    <Build Include="StoredProcedures\Quotations\WorryingTerm\WorryingTermDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\WorryingTerm\WorryingTermInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\WorryingTerm\WorryingTermSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\WorryingTerm\WorryingTermUpdate.sql" />
+    <Build Include="StoredProcedures\Catalogs\Groups\GroupCount.sql" />
+    <Build Include="StoredProcedures\Catalogs\Groups\GroupDelete.sql" />
+    <Build Include="StoredProcedures\Catalogs\Groups\GroupInsert.sql" />
+    <Build Include="StoredProcedures\Catalogs\Groups\GroupSelect.sql" />
+    <Build Include="StoredProcedures\Catalogs\Groups\GroupUpdate.sql" />
+    <Build Include="StoredProcedures\Catalogs\Catalogs\CatalogCount.sql" />
+    <Build Include="StoredProcedures\Catalogs\Catalogs\CatalogDelete.sql" />
+    <Build Include="StoredProcedures\Catalogs\Catalogs\CatalogInsert.sql" />
+    <Build Include="StoredProcedures\Catalogs\Catalogs\CatalogSelect.sql" />
+    <Build Include="StoredProcedures\Catalogs\Catalogs\CatalogUpdate.sql" />
+    <Build Include="StoredProcedures\Catalogs\Classes\ClassCount.sql" />
+    <Build Include="StoredProcedures\Catalogs\Classes\ClassDelete.sql" />
+    <Build Include="StoredProcedures\Catalogs\Classes\ClassInsert.sql" />
+    <Build Include="StoredProcedures\Catalogs\Classes\ClassSelect.sql" />
+    <Build Include="StoredProcedures\Catalogs\Classes\ClassUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationWarning\QuotationWarningCount.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationWarning\QuotationWarningDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationWarning\QuotationWarningInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationWarning\QuotationWarningSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationWarning\QuotationWarningUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\BrandMatching\BrandMatchingCount.sql" />
+    <Build Include="StoredProcedures\Quotations\BrandMatching\BrandMatchingDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\BrandMatching\BrandMatchingSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\BrandMatching\BrandMatchingInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\BrandMatching\BrandMatchingUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\CategoryMatching\CategoryMatchingCount.sql" />
+    <Build Include="StoredProcedures\Quotations\CategoryMatching\CategoryMatchingDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\CategoryMatching\CategoryMatchingInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\CategoryMatching\CategoryMatchingSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\CategoryMatching\CategoryMatchingUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\StateMatching\StateMatchingCount.sql" />
+    <Build Include="StoredProcedures\Quotations\StateMatching\StateMatchingDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\StateMatching\StateMatchingInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\StateMatching\StateMatchingSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\StateMatching\StateMatchingUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\TaxMatching\TaxMatchingCount.sql" />
+    <Build Include="StoredProcedures\Quotations\TaxMatching\TaxMatchingDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\TaxMatching\TaxMatchingInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\TaxMatching\TaxMatchingSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\TaxMatching\TaxMatchingUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplementMatching\SupplementMatchingCount.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplementMatching\SupplementMatchingDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplementMatching\SupplementMatchingInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplementMatching\SupplementMatchingSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplementMatching\SupplementMatchingUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\StockMatching\StockMatchingCount.sql" />
+    <Build Include="StoredProcedures\Quotations\StockMatching\StockMatchingDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\StockMatching\StockMatchingInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\StockMatching\StockMatchingSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\StockMatching\StockMatchingUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplierBrand\SupplierBrandCount.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplierBrand\SupplierBrandDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplierBrand\SupplierBrandInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplierBrand\SupplierBrandSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\SupplierBrand\SupplierBrandUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Stock\StockCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Stock\StockDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Stock\StockInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Stock\StockSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Stock\StockUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationRule\QuotationRuleCount.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationRule\QuotationRuleDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationRule\QuotationRuleInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationRule\QuotationRuleSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\QuotationRule\QuotationRuleUpdate.sql" />
+    <Build Include="Indexes\ProdutosAtivosIndex.sql" />
+    <Build Include="Indexes\CotacoesAtivasIndex.sql" />
+    <Build Include="StoredProcedures\Quotations\Product\ProductCount.sql" />
+    <Build Include="StoredProcedures\Quotations\Product\ProductDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\Product\ProductInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\Product\ProductSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Product\ProductUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductMatching\ProductMatchingCount.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductMatching\ProductMatchingDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductMatching\ProductMatchingInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductMatching\ProductMatchingSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductMatching\ProductMatchingUpdate.sql" />
+    <Build Include="StoredProcedures\Quotations\Product\CurrentProductSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductDetail\ProductDetailsCount.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductDetail\ProductDetailsDelete.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductDetail\ProductDetailsInsert.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductDetail\ProductDetailsSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\ProductDetail\ProductDetailsUpdate.sql" />
+    <Build Include="Vews\ProdutosView.sql" />
+    <Build Include="StoredProcedures\Quotations\Quotation\HistoryQuotationSelect.sql" />
+    <Build Include="StoredProcedures\Quotations\Quotation\CurrentProductSelect.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WhereToBuy_1.sqldatabase.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PreDeploy Include="Scripts\Script.PreDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
+  </ItemGroup>
+</Project>

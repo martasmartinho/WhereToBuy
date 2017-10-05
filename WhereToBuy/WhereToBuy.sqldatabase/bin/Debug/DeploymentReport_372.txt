@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Categorias]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Categorias] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_Produtos_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+     Create
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_Produtos_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)

@@ -1,0 +1,46 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Stocks]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Stocks] (Table)
+     Create
+       [dbo].[FK_Stocks_ValidadeP50] (Foreign Key)
+       [dbo].[FK_Stocks_ValidadeP60] (Foreign Key)
+       [dbo].[FK_Stocks_ValidadeP70] (Foreign Key)
+       [dbo].[FK_Stocks_ValidadeP80] (Foreign Key)
+       [dbo].[FK_Stocks_ValidadeP90] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CotacoesRegras_Stock] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Produtos_Stock] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U1] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U2] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U3] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_StocksMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+     Create
+       [dbo].[FK_CotacoesRegras_Stock] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Produtos_Stock] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U1] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U2] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U3] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_StocksMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+     Refresh
+       [dbo].[ProdutosAtuaisView] (View)
+       [dbo].[Step3c1_Finishing_ProductDescontinuation] (Procedure)

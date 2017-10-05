@@ -1,0 +1,17 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[MarcasMatching] (Table)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+
+** Supporting actions

@@ -1,0 +1,27 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Idiomas] (Table)
+       [dbo].[LanguageCount] (Procedure)
+       [dbo].[LanguageDelete] (Procedure)
+       [dbo].[LanguageInsert] (Procedure)
+       [dbo].[LanguageSelect] (Procedure)
+       [dbo].[LanguageUpdate] (Procedure)
+       [dbo].[SupplierCount] (Procedure)
+       [dbo].[SupplierDelete] (Procedure)
+       [dbo].[SupplierInsert] (Procedure)
+       [dbo].[SupplierSelect] (Procedure)
+       [dbo].[SupplierUpdate] (Procedure)
+     Alter
+       [dbo].[QuotationWarningSelect] (Procedure)
+
+** Supporting actions

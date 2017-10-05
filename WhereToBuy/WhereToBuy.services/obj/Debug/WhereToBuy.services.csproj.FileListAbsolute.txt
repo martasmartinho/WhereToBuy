@@ -1,0 +1,23 @@
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll.config
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.pdb
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.dll
+C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll.config
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.pdb
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.dll
+C:\Users\Marta\Google Drive\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll.config
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.pdb
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.dll
+F:\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll.config
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\bin\WhereToBuy.services.pdb
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.dll
+C:\Users\Marta\Google Drive\ProjetosTic\WhereToBuy\Desenvolvimento\WhereToBuy\WhereToBuy.services\obj\Debug\WhereToBuy.services.pdb

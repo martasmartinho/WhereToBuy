@@ -1,0 +1,37 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[ProdutosMatching]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[ProdutosMatching] (Table)
+     Alter
+       [dbo].[Step4a3_Precautions_FakeStock] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_MapTo] (Foreign Key)
+     Create
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_MapTo] (Foreign Key)
+     Refresh
+       [dbo].[CotacoesAtuaisRecalcularView] (View)
+       [dbo].[CotacoesIncompletasNormalizacaoView] (View)
+       [dbo].[Step2c1_MappingProducts_FeedNewRules] (Procedure)
+       [dbo].[Step2c3_MappingProducts_FillMapTo] (Procedure)
+       [dbo].[Step2c4_MappingProducts_Map] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications1] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications2] (Procedure)
+       [dbo].[Step3a1_Preparation_ProductMatchingsReset] (Procedure)
+       [dbo].[Step4a1_Preparation_Notifications] (Procedure)
+       [dbo].[Step4a1_Preparation_OtherFieldsRefresh] (Procedure)
+       [dbo].[Step2d1_Normalization_OtherFieldsFulfillment] (Procedure)

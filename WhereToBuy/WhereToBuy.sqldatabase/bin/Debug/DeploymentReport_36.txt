@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Alter
+       [dbo].[QuotationRuleSelect] (Procedure)
+     Create
+       [dbo].[ProductCount] (Procedure)
+       [dbo].[ProductDelete] (Procedure)
+       [dbo].[ProductInsert] (Procedure)
+       [dbo].[ProductSelect] (Procedure)
+       [dbo].[ProductUpdate] (Procedure)
+
+** Supporting actions

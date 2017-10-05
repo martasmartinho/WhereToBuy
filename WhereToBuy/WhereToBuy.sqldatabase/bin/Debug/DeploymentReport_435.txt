@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Catalogos]
+       [dbo].[Classes]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Catalogos] (Table)
+       [dbo].[Classes] (Table)
+     Create
+       [dbo].[ClassesCategorias] (Table)
+       [dbo].[Grupos] (Table)
+       [dbo].[Subgrupos] (Table)
+       [dbo].[SubgruposClasses] (Table)
+       [dbo].[FK_ClassesCategorias_Classe] (Foreign Key)
+       [dbo].[FK_ClassesCategorias_Categoria] (Foreign Key)
+       [dbo].[FK_Subgrupos_Grupo] (Foreign Key)
+       [dbo].[FK_SubgruposClasses_Subgrupo] (Foreign Key)
+       [dbo].[FK_SubgruposClasses_Classe] (Foreign Key)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Classes_Catalogo] (Foreign Key)
+     Create
+       [dbo].[FK_Classes_Catalogo] (Foreign Key)

@@ -1,0 +1,34 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[CategoriasMatching]
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[CategoriasMatching] (Table)
+     Alter
+       [dbo].[Cotacoes] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Unbind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Create
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Rebind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Refresh
+       [dbo].[CotacoesAtuaisView] (View)
+       [dbo].[CotacoesIncompletasView] (View)
+       [dbo].[CotacoesNaoIntegradasView] (View)
+       [dbo].[CotacaoInsertSP] (Procedure)

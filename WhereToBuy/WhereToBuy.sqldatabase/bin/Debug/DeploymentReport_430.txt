@@ -1,0 +1,16 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Step4a4_Finishing_ProductDescontinuation] (Procedure)
+       [dbo].[Step4a5_Finishing_ProductResurrection] (Procedure)
+
+** Supporting actions

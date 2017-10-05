@@ -1,0 +1,55 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[ProdutosMatching]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[ProdutosMatching].[DispensaPrevencaoPrecosDesfazados] is being dropped, data loss could occur.
+       The column [dbo].[ProdutosMatching].[DispensaPrevencaoPrecosDesfasados] on table [dbo].[ProdutosMatching] must be added,
+         but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will
+         not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or
+         enable the generation of smart-defaults as a deployment option.
+
+** User actions
+     Table rebuild
+       [dbo].[ProdutosMatching] (Table)
+     Alter
+       [dbo].[CotacoesAtuaisAmplitudeExcedidaView] (View)
+       [dbo].[CotacoesAtuaisPrecosForaIntervaloView] (View)
+       [dbo].[CotacoesAtuaisAmplitudeIrregularView] (View)
+       [dbo].[Step2c1_MappingProducts_FeedNewRules] (Procedure)
+       [dbo].[Step3a1_Preparation_ProductMatchingsReset] (Procedure)
+     Create
+       [dbo].[Step4b5_IrregularAmplitude_Notifications] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_MapTo] (Foreign Key)
+     Create
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_MapTo] (Foreign Key)
+     Refresh
+       [dbo].[CotacoesAtuaisFalsoStockView] (View)
+       [dbo].[CotacoesAtuaisRecalcularView] (View)
+       [dbo].[CotacoesIncompletasNormalizacaoView] (View)
+       [dbo].[Step2c3_MappingProducts_FillMapTo] (Procedure)
+       [dbo].[Step2c4_MappingProducts_Map] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications1] (Procedure)
+       [dbo].[Step2c5_MappingProducts_Notifications2] (Procedure)
+       [dbo].[Step4b1_FakeStock_Notifications] (Procedure)
+       [dbo].[Step4b2_FakeStock_Execution] (Procedure)
+       [dbo].[Step4b3_OutOfInterval_Notifications] (Procedure)
+       [dbo].[Step4b4_OutOfInterval_Execution] (Procedure)
+       [dbo].[Step4a1_Preparation_Notifications] (Procedure)
+       [dbo].[Step4a1_Preparation_OtherFieldsRefresh] (Procedure)
+       [dbo].[Step2d1_Normalization_OtherFieldsFulfillment] (Procedure)
+
+The column [dbo].[ProdutosMatching].[DispensaPrevencaoPrecosDesfazados] is being dropped, data loss could occur.
+The column [dbo].[ProdutosMatching].[DispensaPrevencaoPrecosDesfasados] on table [dbo].[ProdutosMatching] must be added, but the column has no default value and does not allow NULL values. If the table contains data, the ALTER script will not work. To avoid this issue you must either: add a default value to the column, mark it as allowing NULL values, or enable the generation of smart-defaults as a deployment option.
+If this deployment is executed, changes to [dbo].[ProdutosMatching] might introduce run-time errors in [dbo].[CotacoesAtuaisPrecosDesfazadosIntervaloCategoriaView].
+

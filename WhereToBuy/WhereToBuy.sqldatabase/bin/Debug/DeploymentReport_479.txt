@@ -1,0 +1,35 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[MarcasMatching]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Codigo in table [dbo].[MarcasMatching] is currently  NVARCHAR (128) NOT NULL but is being changed to
+          NVARCHAR (5) NOT NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[MarcasMatching] (Table)
+     Create
+       [dbo].[BrandMatchingCount] (Procedure)
+       [dbo].[BrandMatchingDelete] (Procedure)
+       [dbo].[BrandMatchingInsert] (Procedure)
+       [dbo].[BrandMatchingSelect] (Procedure)
+       [dbo].[BrandMatchingUpdate] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+     Create
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+     Refresh
+       [dbo].[Step2b1a_Mappings_Brands_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Brands_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Brands_Notifications] (Procedure)
+
+The type for column Codigo in table [dbo].[MarcasMatching] is currently  NVARCHAR (128) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+

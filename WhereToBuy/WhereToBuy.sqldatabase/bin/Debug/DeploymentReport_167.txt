@@ -1,0 +1,291 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[AvisosTipo]
+       [dbo].[CategoriasMatching]
+       [dbo].[Complementos]
+       [dbo].[ComplementosMatching]
+       [dbo].[Cotacoes]
+       [dbo].[CotacoesRegras]
+       [dbo].[Estados]
+       [dbo].[EstadosMatching]
+       [dbo].[Fornecedores]
+       [dbo].[Impostos]
+       [dbo].[ImpostosMatching]
+       [dbo].[Marcas]
+       [dbo].[MarcasMatching]
+       [dbo].[ProdutosDetalhe]
+       [dbo].[ProdutosMatching]
+       [dbo].[Stocks]
+       [dbo].[StocksMatching]
+     Clustered indexes that will be dropped
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Clustered indexes that will be created
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] on [dbo].[CotacoesAtivasView]
+     Possible data issues
+       The type for column Codigo in table [dbo].[AvisosTipo] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[CategoriasMatching] is currently  NVARCHAR (20) NOT NULL but is
+         being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column Codigo in table [dbo].[Complementos] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[ComplementosMatching] is currently  NVARCHAR (20) NOT NULL but is
+         being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column MapTo in table [dbo].[ComplementosMatching] is currently  NVARCHAR (20) NULL but is being changed to
+          NVARCHAR (5) NULL. Data loss could occur.
+       The type for column ComplementoCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to
+          NVARCHAR (5) NULL. Data loss could occur.
+       The type for column EstadoCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NOT NULL but is being changed
+         to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column ImpostoCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column MarcaCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column StockCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column StockCodigoSubstituto in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being
+         changed to  NVARCHAR (5) NULL. Data loss could occur.
+       The type for column AvisoTipoCodigo in table [dbo].[CotacoesAvisos] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[CotacoesAvisos] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column MarcaCodigo in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column StockCodigo in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column StockCodigoSubstituto in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NULL but is being
+         changed to  NVARCHAR (5) NULL. Data loss could occur.
+       The type for column Codigo in table [dbo].[Estados] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[EstadosMatching] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column MapTo in table [dbo].[EstadosMatching] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column Codigo in table [dbo].[Fornecedores] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column Codigo in table [dbo].[Impostos] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[ImpostosMatching] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column MapTo in table [dbo].[ImpostosMatching] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column Codigo in table [dbo].[Marcas] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[MarcasMatching] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column MapTo in table [dbo].[MarcasMatching] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NOT NULL but is being changed
+         to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column ImpostoCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NOT NULL but is being changed to
+          NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column MarcaCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column StockCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column StockCodigo_U1 in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column StockCodigo_U2 in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column StockCodigo_U3 in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[ProdutosDetalhe] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[ProdutosMatching] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column StockCodigoSubstituto in table [dbo].[ProdutosMatching] is currently  NVARCHAR (20) NULL but is
+         being changed to  NVARCHAR (5) NULL. Data loss could occur.
+       The type for column Codigo in table [dbo].[Stocks] is currently  NVARCHAR (20) NOT NULL but is being changed to 
+         NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column FornecedorCodigo in table [dbo].[StocksMatching] is currently  NVARCHAR (20) NOT NULL but is being
+         changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+       The type for column MapTo in table [dbo].[StocksMatching] is currently  NVARCHAR (20) NULL but is being changed to 
+         NVARCHAR (5) NULL. Data loss could occur.
+
+** User actions
+     Table rebuild
+       [dbo].[AvisosTipo] (Table)
+       [dbo].[CategoriasMatching] (Table)
+       [dbo].[Complementos] (Table)
+       [dbo].[ComplementosMatching] (Table)
+       [dbo].[Cotacoes] (Table)
+       [dbo].[CotacoesRegras] (Table)
+       [dbo].[Estados] (Table)
+       [dbo].[EstadosMatching] (Table)
+       [dbo].[Fornecedores] (Table)
+       [dbo].[Impostos] (Table)
+       [dbo].[ImpostosMatching] (Table)
+       [dbo].[Marcas] (Table)
+       [dbo].[MarcasMatching] (Table)
+       [dbo].[ProdutosDetalhe] (Table)
+       [dbo].[ProdutosMatching] (Table)
+       [dbo].[Stocks] (Table)
+       [dbo].[StocksMatching] (Table)
+     Alter
+       [dbo].[CotacoesAvisos] (Table)
+       [dbo].[Produtos] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_CotacoesAvisos_AvisoTipo] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Estado] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Marca] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Stock] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_StockSubstituto] (Foreign Key)
+       [dbo].[FK_EstadosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_EstadosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_StocksMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Imposto] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Produtos_Marca] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Produtos_Stock] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U1] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U2] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U3] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Produto] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_StocksMatching_MapTo] (Foreign Key)
+       [dbo].[UC_CotacoesAvisos] (Unique Constraint)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Unbind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Create
+       [dbo].[UC_CotacoesAvisos] (Unique Constraint)
+       [dbo].[FK_CotacoesAvisos_AvisoTipo] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_CategoriasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Cotacoes_Complemento] (Foreign Key)
+       [dbo].[FK_ComplementosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Marca] (Foreign Key)
+       [dbo].[FK_Cotacoes_Categoria] (Foreign Key)
+       [dbo].[FK_Cotacoes_Stock] (Foreign Key)
+       [dbo].[FK_Cotacoes_StockSubstituto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Imposto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Produto] (Foreign Key)
+       [dbo].[FK_Cotacoes_Fornecedor] (Foreign Key)
+       [dbo].[FK_Cotacoes_Estado] (Foreign Key)
+       [dbo].[FK_CotacoesAvisos_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Fornecedor] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Marca] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Categoria] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_Stock] (Foreign Key)
+       [dbo].[FK_CotacoesRegras_StockSubstituto] (Foreign Key)
+       [dbo].[FK_EstadosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_EstadosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Fornecedor] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_MarcasMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_StocksMatching_Fornecedor] (Foreign Key)
+       [dbo].[FK_Produtos_Imposto] (Foreign Key)
+       [dbo].[FK_ImpostosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Produtos_Marca] (Foreign Key)
+       [dbo].[FK_MarcasMatching_MapTo] (Foreign Key)
+       [dbo].[FK_Produtos_Stock] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U1] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U2] (Foreign Key)
+       [dbo].[FK_Produtos_Stock_U3] (Foreign Key)
+       [dbo].[FK_ProdutosDetalhe_Produto] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_MapTo] (Foreign Key)
+       [dbo].[FK_ProdutosMatching_StockSubstituto] (Foreign Key)
+       [dbo].[FK_StocksMatching_MapTo] (Foreign Key)
+       [dbo].[CotacoesAtivasView].[CotacoesAtivasViewIndex] (Index)
+     Rebind schemabinding
+       [dbo].[CotacoesAtivasView] (View)
+     Refresh
+       [dbo].[CotacoesAtuaisView] (View)
+       [dbo].[CotacoesIncompletasView] (View)
+       [dbo].[CotacoesNaoIntegradasView] (View)
+       [dbo].[Step2b1a_Mappings_Categories_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Categories_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Categories_Notifications] (Procedure)
+       [dbo].[Step2b1a_Mappings_Addons_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Addons_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Addons_Notifications] (Procedure)
+       [dbo].[CotacaoInsertSP] (Procedure)
+       [dbo].[Step2a2_DeleteExpiredQuotations] (Procedure)
+       [dbo].[Step2a3_SetInactiveExpiredQuotations] (Procedure)
+       [dbo].[DeleteIncompleteExistingQuotations] (Procedure)
+       [dbo].[Step2b1a_Mappings_Brands_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Statuses_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Stocks_FeedNewRules] (Procedure)
+       [dbo].[Step2b1a_Mappings_Taxes_FeedNewRules] (Procedure)
+       [dbo].[Step2b1b_Mappings_Brands_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Statuses_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Stocks_Map] (Procedure)
+       [dbo].[Step2b1b_Mappings_Taxes_Map] (Procedure)
+       [dbo].[Step2b1c_Mappings_Brands_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Statuses_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Stocks_Notifications] (Procedure)
+       [dbo].[Step2b1c_Mappings_Taxes_Notifications] (Procedure)
+       [dbo].[Step2a1_CleanAllExistingWarnings] (Procedure)
+
+The type for column Codigo in table [dbo].[AvisosTipo] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[CategoriasMatching] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column Codigo in table [dbo].[Complementos] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[ComplementosMatching] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column MapTo in table [dbo].[ComplementosMatching] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column ComplementoCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column EstadoCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column ImpostoCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column MarcaCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column StockCodigo in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column StockCodigoSubstituto in table [dbo].[Cotacoes] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column AvisoTipoCodigo in table [dbo].[CotacoesAvisos] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[CotacoesAvisos] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column MarcaCodigo in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column StockCodigo in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column StockCodigoSubstituto in table [dbo].[CotacoesRegras] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column Codigo in table [dbo].[Estados] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[EstadosMatching] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column MapTo in table [dbo].[EstadosMatching] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column Codigo in table [dbo].[Fornecedores] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column Codigo in table [dbo].[Impostos] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[ImpostosMatching] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column MapTo in table [dbo].[ImpostosMatching] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column Codigo in table [dbo].[Marcas] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[MarcasMatching] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column MapTo in table [dbo].[MarcasMatching] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column ImpostoCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column MarcaCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column StockCodigo in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column StockCodigo_U1 in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column StockCodigo_U2 in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column StockCodigo_U3 in table [dbo].[Produtos] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[ProdutosDetalhe] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[ProdutosMatching] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column StockCodigoSubstituto in table [dbo].[ProdutosMatching] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+The type for column Codigo in table [dbo].[Stocks] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column FornecedorCodigo in table [dbo].[StocksMatching] is currently  NVARCHAR (20) NOT NULL but is being changed to  NVARCHAR (5) NOT NULL. Data loss could occur.
+The type for column MapTo in table [dbo].[StocksMatching] is currently  NVARCHAR (20) NULL but is being changed to  NVARCHAR (5) NULL. Data loss could occur.
+
