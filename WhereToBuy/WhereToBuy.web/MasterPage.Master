@@ -88,7 +88,7 @@
                             <li>
                                 <asp:HyperLink runat="server" NavigateUrl="/App/QuotationRules/QuotationRules/QuotationRules.aspx" Text="<%$ Resources:lang, RulesString %>">Rules</asp:HyperLink></li>
                             <li>
-                                <asp:HyperLink runat="server" NavigateUrl="#" Text="<%$ Resources:lang, QuotationsString %>">Quotations</asp:HyperLink></li>
+                                <asp:HyperLink runat="server" NavigateUrl="/App/Quotations/Quotations/Quotations.aspx" Text="<%$ Resources:lang, QuotationsString %>">Quotations</asp:HyperLink></li>
                             <li>
                                 <asp:HyperLink runat="server" NavigateUrl="/App/QuotationWarnings/QuotationWarnings.aspx" Text="<%$ Resources:lang, WarningsString %>">Warnings</asp:HyperLink></li>
                         </ul>

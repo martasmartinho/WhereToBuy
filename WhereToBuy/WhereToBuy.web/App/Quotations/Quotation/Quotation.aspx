@@ -1,16 +1,12 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Quotation.aspx.cs" Inherits="WhereToBuy.web.App.Quotations.Quotation.Quotation" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Quotation.aspx.cs" Inherits="WhereToBuy.web.App.Quotations.Quotation.Quotation" %>
+<%@ Register Src="~/UserControls/Quotations/Quotation/QuotationUC.ascx" TagPrefix="uc1" TagName="QuotationUC" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-    <div>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <article>
+         <uc1:QuotationUC runat="server" id="QuotatiosUC" />
+    </article>
     
-    </div>
-    </form>
-</body>
-</html>
+</asp:Content>
+

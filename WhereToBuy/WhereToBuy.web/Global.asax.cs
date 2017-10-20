@@ -68,7 +68,8 @@ namespace WhereToBuy.web
             Application["ProductsMatchingPage"] = (string)System.Configuration.ConfigurationManager.AppSettings["ProductsMatchingPage"];
             Application["ProductPage"] = (string)System.Configuration.ConfigurationManager.AppSettings["ProductPage"];
             Application["ProductsPage"] = (string)System.Configuration.ConfigurationManager.AppSettings["ProductsPage"];
-
+            Application["QuotationPage"] = (string)System.Configuration.ConfigurationManager.AppSettings["QuotationPage"];
+            Application["QuotationsPage"] = (string)System.Configuration.ConfigurationManager.AppSettings["QuotationsPage"];
             
 
         }

@@ -73,3 +73,12 @@ C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.entities.specs\
 C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.entities.specs\obj\Debug\WhereToBuy.entities.specs.csprojResolveAssemblyReference.cache
 C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.entities.specs\obj\Debug\WhereToBuy.entities.specs.dll
 C:\Users\Marta\Documents\Marta\ProjetosTic\WhereToBuy\WhereToBuy.entities.specs\obj\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\bin\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\bin\Debug\WhereToBuy.entities.specs.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\bin\Debug\WhereToBuy.entities.dll
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\bin\Debug\WhereToBuy.utils.dll
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\bin\Debug\WhereToBuy.entities.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\bin\Debug\WhereToBuy.utils.pdb
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\obj\Debug\WhereToBuy.entities.specs.csprojResolveAssemblyReference.cache
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\obj\Debug\WhereToBuy.entities.specs.dll
+C:\Users\Marta\Documents\Marta\GitProjects\WhereToBuy\WhereToBuy\WhereToBuy.entities.specs\obj\Debug\WhereToBuy.entities.specs.pdb

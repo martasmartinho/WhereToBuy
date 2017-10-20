@@ -117,7 +117,7 @@
     <Content Include="App\QuotationRules\QuotationRules\QuotationRules.aspx" />
     <Content Include="App\QuotationRules\QuotationRule\QuotationRule.aspx" />
     <Content Include="App\Quotations\Quotation\Quotation.aspx" />
-    <Content Include="App\Quotations\Quotitions\Quotations.aspx" />
+    <Content Include="App\Quotations\Quotations\Quotations.aspx" />
     <Content Include="App\QuotationWarnings\QuotationWarnings.aspx" />
     <Content Include="App\Stocks\StockMatching\StockMatching.aspx" />
     <Content Include="App\Stocks\StocksMatching\StocksMatching.aspx" />
@@ -213,6 +213,8 @@
     <Content Include="UserControls\Products\Product\ProductUC.ascx" />
     <Content Include="UserControls\QuotationRules\QuotationRules\QuotationRulesUC.ascx" />
     <Content Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.ascx" />
+    <Content Include="UserControls\Quotations\Quotations\QuotationsUC.ascx" />
+    <Content Include="UserControls\Quotations\Quotation\QuotationUC.ascx" />
     <Content Include="UserControls\QuotationWarnings\QuotationWarningsUC.ascx" />
     <Content Include="UserControls\StatePanel\E-Commerce.png" />
     <Content Include="UserControls\StatePanel\StatePanel.aspx" />
@@ -384,11 +386,11 @@
     <Compile Include="App\Quotations\Quotation\Quotation.aspx.designer.cs">
       <DependentUpon>Quotation.aspx</DependentUpon>
     </Compile>
-    <Compile Include="App\Quotations\Quotitions\Quotations.aspx.cs">
+    <Compile Include="App\Quotations\Quotations\Quotations.aspx.cs">
       <DependentUpon>Quotations.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="App\Quotations\Quotitions\Quotations.aspx.designer.cs">
+    <Compile Include="App\Quotations\Quotations\Quotations.aspx.designer.cs">
       <DependentUpon>Quotations.aspx</DependentUpon>
     </Compile>
     <Compile Include="App\QuotationWarnings\QuotationWarnings.aspx.cs">
@@ -982,6 +984,20 @@
     <Compile Include="UserControls\QuotationRules\QuotationRule\QuotationRuleUC.state.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="UserControls\Quotations\Quotations\QuotationsUC.ascx.cs">
+      <DependentUpon>QuotationsUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Quotations\Quotations\QuotationsUC.ascx.designer.cs">
+      <DependentUpon>QuotationsUC.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Quotations\Quotation\QuotationUC.ascx.cs">
+      <DependentUpon>QuotationUC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Quotations\Quotation\QuotationUC.ascx.designer.cs">
+      <DependentUpon>QuotationUC.ascx</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\QuotationWarnings\QuotationWarningsUC.ascx.cs">
       <DependentUpon>QuotationWarningsUC.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1439,7 +1455,6 @@
   <ItemGroup>
     <Folder Include="Helpers\BrandsMatching\" />
     <Folder Include="UserControls\Authentication\Registration\" />
-    <Folder Include="UserControls\Quotations\" />
     <Folder Include="UserControls\Structures\" />
     <Folder Include="UserControls\Users\" />
   </ItemGroup>
