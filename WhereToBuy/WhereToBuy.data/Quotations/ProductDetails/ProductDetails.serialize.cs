@@ -35,14 +35,14 @@ namespace WhereToBuy.data
             productDetail.ImageScore = (short)sqlDataReader["ImagemPontuacao"];
             productDetail.IsImageDisable = (bool)sqlDataReader["ImagemInativa"];
             productDetail.AutomaticUpdate = (bool)sqlDataReader["AtualizacaoAutomaticaInativa"];
-            productDetail.ContentConcernIndex = (int)sqlDataReader["AtualizacaoManualNecessaria"];
-            productDetail.NeddManualUpdate = (bool)sqlDataReader["IndicePreocupacaoConteudo"];
+            productDetail.ContentConcernIndex = Convert.ToInt32(sqlDataReader["IndicePreocupacaoConteudo"]);
+            productDetail.NeddManualUpdate = (bool)sqlDataReader["AtualizacaoManualNecessaria"];
 
             productDetail.MetaInfo = new Dictionary<string, object>();
             productDetail.MetaInfo.Add("Supplier.Code", (object)sqlDataReader["FornecedorCodigo"]);
             productDetail.MetaInfo.Add("Supplier.Name", (object)sqlDataReader["FornecedorNome"]);
 
-            productDetail.Inactive = (bool)sqlDataReader["Inativo"];
+            productDetail.Inactive = false;
             productDetail.Creation = (DateTime)sqlDataReader["Criacao"];
             productDetail.Version = (DateTime)sqlDataReader["Versao"];
             productDetail.EditionMode = true;

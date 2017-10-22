@@ -5,6 +5,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <article>
+        <h1>cotacoes</h1>
          <uc1:QuotationsUC runat="server" id="QuotationsUC" />
     </article>
     

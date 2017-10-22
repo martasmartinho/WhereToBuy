@@ -218,7 +218,7 @@ namespace WhereToBuy.data
                 {
                     productDetail.Supplier = new Supplier();
                     productDetail.Supplier.Code = (productDetail.MetaInfo["Supplier.Code"]).ToString();
-                    productDetail.Supplier.Name = (productDetail.MetaInfo["FornecedorNome"]).ToString();
+                    productDetail.Supplier.Name = (productDetail.MetaInfo["Supplier.Name"]).ToString();
                 }
             }
 

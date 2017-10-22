@@ -64,7 +64,7 @@ namespace WhereToBuy.web.UserControls.Products.Product
             gvDetails.AllowPaging = true;
             gvDetails.PageSize = 3;
             gvDetails.Height = 360;
-            gvDetails.DataKeyNames = new string[] { "ProductCode", "SupplierCode" };
+            gvDetails.DataKeyNames = new string[] { "ProductCode"};
             gvDetails.SelectedIndex = 0;
             gvDetails.AllowPaging = true;
             gvDetails.PageIndex = 0;

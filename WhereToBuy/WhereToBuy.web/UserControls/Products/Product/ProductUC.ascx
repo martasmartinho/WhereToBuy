@@ -393,23 +393,30 @@
                                     <div id="DetailsGrid" style="display: none; min-height: 100px">
                                         <br />
                                         <br />
-                                        <asp:GridView ID="gvDetails" CssClass="table table-responsive" runat="server" AllowSorting="true"
-                                            AllowPaging="True" PageSize="10" OnPageIndexChanged="gvDetails_PageIndexChanged" OnPageIndexChanging="gvDetails_PageIndexChanging"
+                                        <asp:GridView ID="gvDetails" CssClass="table-responsive" HeaderStyle-BackColor="#428bca" Width="100%" runat="server" AllowSorting="true"
+                                            AllowPaging="True" PageSize="3" OnPageIndexChanged="gvDetails_PageIndexChanged" OnPageIndexChanging="gvDetails_PageIndexChanging"
                                             OnRowDataBound="gvDetails_RowDataBound" OnRowCommand="gvDetails_RowCommand" OnRowCreated="gvDetails_RowCreated" OnSorting="gvDetails_Sorting">
                                             <Columns>
                                                 <asp:BoundField DataField="ProductDetail.ContentConcernIndex" HeaderText="<%$ Resources:lang, CodeString %>" ReadOnly="True"
-                                                    SortExpression="ProductDetail.ContentConcernIndex" Visible="false" />
-                                                <asp:TemplateField HeaderText="<%$ Resources:lang, CodeString %>" SortExpression="Brand.Code">
-                                                    <HeaderTemplate>
+                                                    SortExpression="ProductDetail.ContentConcernIndex" Visible="false" ControlStyle-BorderWidth="0"/>
+                                                <asp:TemplateField HeaderText="" SortExpression="IPC" FooterStyle-BorderWidth="0">
+                                                   <%-- <HeaderTemplate>
                                                         <asp:LinkButton runat="server" ID="lnkCode" CommandName="Sort" CommandArgument="Codigo" CssClass="btn-link text-muted" Font-Bold="true" Text="<%$ Resources:lang, CodeString %>">Code</asp:LinkButton>
-                                                    </HeaderTemplate>
+                                                    </HeaderTemplate>--%>
                                                     <ItemTemplate>
-                                                        <div>
-                                                            <div class="row">
-                                                                <asp:Label ID="lblCode" runat="server" Text='Teste'>
-                                                                </asp:Label>
-                                                            </div>
-                                                            <div class="row">
+                                                        <div class="row">
+                                                            
+                                                            <div class="col-sm-12">
+                                                                <div>
+                                                                    <div class="col-sm-5">
+                                                                         <asp:Label ID="Label8" runat="server" Text='<%# (DataBinder.Eval(Container, "DataItem.Supplier")).ToString()%>'>
+                                                                         </asp:Label>
+                                                                    </div>
+                                                                   <div class="col-sm-5">
+                                                                         <asp:Label ID="Label16" runat="server" Text='<%# string.Format("{0}: {1}", this.GetGlobalResourceObject("lang", "IPCString") as string, (DataBinder.Eval(Container, "DataItem.ContentConcernIndex")).ToString())%>'>
+                                                                         </asp:Label>
+                                                                    </div>
+                                                                </div>
                                                                 <table class="table table-bordered">
                                                                     <thead>
                                                                         <tr>
@@ -422,7 +429,7 @@
                                                                     <tbody>
                                                                         <%--Description--%>
                                                                         <tr>
-                                                                            <td>%><%= Resources.lang.DescriptionString%></td>
+                                                                            <td><%= Resources.lang.DescriptionString%></td>
                                                                             <td><%# DataBinder.Eval(Container, "DataItem.Description") %></td>
                                                                             <td><%# DataBinder.Eval(Container, "DataItem.DescriptionScore") %></td>
                                                                             <td><%# DataBinder.Eval(Container, "DataItem.IsDescriptionDisable") %></td>
@@ -456,21 +463,21 @@
 
                                                         </div>
                                                     </ItemTemplate>
-                                                    <ItemStyle Width="25%" HorizontalAlign="Left" VerticalAlign="Top" />
+                                                    <ItemStyle Width="95%" VerticalAlign="Top"/>
                                                 </asp:TemplateField>
-                                                <asp:TemplateField HeaderText="...">
-                                                    <HeaderTemplate>
+                                                <asp:TemplateField HeaderText="" ControlStyle-BorderWidth="0">
+                                                    <%--<HeaderTemplate>
                                                         <asp:Label ID="lblSelect" runat="server" Text=""></asp:Label>
-                                                    </HeaderTemplate>
+                                                    </HeaderTemplate>--%>
                                                     <ItemTemplate>
                                                         <asp:LinkButton ID="lnkSelect" runat="server" CommandName="Select" Style="display: none"><span class="glyphicon glyphicon-open"></asp:LinkButton>
                                                         <asp:LinkButton ID="btnSelect" runat="server" CommandName="OpenSelect" ToolTip="<%$ Resources:lang, OpenString %>"><span class="glyphicon glyphicon-open"></asp:LinkButton>
                                                     </ItemTemplate>
-                                                    <ItemStyle Width="5%" HorizontalAlign="Center" VerticalAlign="Middle" />
+                                                    <ItemStyle Width="5%" HorizontalAlign="Center" VerticalAlign="Middle"/>
                                                 </asp:TemplateField>
                                             </Columns>
                                             <PagerTemplate>
-                                                <asp:Panel runat="server" CssClass="container-fluid" OnItemCommand="PageFooter_ItemCommand">
+                                                <asp:Panel runat="server" CssClass="container-fluid" OnItemCommand="PageFooter_ItemCommand" >
                                                     <%--<ul class="pagination">--%>
                                                     <ul class="pager">
                                                         <li class="previous">
@@ -486,7 +493,7 @@
                                                 não existem registos
                                             </EmptyDataTemplate>
                                             <FooterStyle Height="100%" />
-                                            <SelectedRowStyle CssClass="info" />
+                                            <SelectedRowStyle CssClass="info" BorderWidth="0" />
                                         </asp:GridView>
                                     </div>
 
